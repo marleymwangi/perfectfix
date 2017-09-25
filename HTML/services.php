@@ -36,17 +36,17 @@
 
                 <div class="row g-row-col--5">
                     <!-- Plan -->
-                    <div class="col-md-4 g-margin-b-10--xs g-margin-b-0--lg">
+                    <div class="col-md-3 g-margin-b-10--xs g-margin-b-0--lg">
                         <section class="container1">
-                            <div class="card">
+                            <div class="card1">
                                 <div class="front flip">
                                     <div class="wow fadeInUp" data-wow-duration=".3" data-wow-delay=".1s">
                                         <div class="s-plan-v1 g-text-center--xs g-bg-color--white g-padding-y-100--xs">
                                             <i class="g-display-block--xs g-font-size-40--xs g-color--primary g-margin-b-30--xs ti-archive"></i>
-                                            <h3 class="g-font-size-18--xs g-color--primary g-margin-b-30--xs">Weekly</h3>
+                                            <h3 class="g-font-size-18--xs g-color--primary g-margin-b-30--xs">Package1</h3>
                                             <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-40--xs">
-                                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> we give this </li>
-                                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i>  we give this </li>
+                                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Get 5 sure bets every day for 1 week </li>
+                                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i>  For just </li>
                                             </ul>
                                             <div class="g-margin-b-40--xs">
                                                 <span class="s-plan-v1__price-mark">Ksh.</span>
@@ -73,7 +73,7 @@
                                                 <div class="g-text-center--xs g-margin-b-5--xs">
                                                     <input type="text" class="form-control s-form-v1__input g-radius--left-50 g-radius--right-50 text-uppercase" id="form-menu" placeholder="Trans Code" name="transcode">
                                                 </div>
-                                                <input type="hidden" name="subs" value="weekgames"/>
+                                                <input type="hidden" name="subs" value="package1"/>
                                                 <div class="g-text-center--xs">
                                                     <button type="submit" class="text-uppercase s-btn s-btn--xs s-btn--white-bg g-radius--50 g-font-weight--700" id="form-menu" name="submit">Submit</button>
                                                 </div>
@@ -90,42 +90,164 @@
                     <!-- End Plan -->
 
                     <!-- Plan -->
-                    <div class="col-md-4">
-                        <div class="wow fadeInUp" data-wow-duration=".3" data-wow-delay=".1s">
+                    <div class="col-md-3 g-margin-b-10--xs g-margin-b-0--lg">
+                        <section class="container1">
+                            <div class="card2">
+                                <div class="front flip">
+                                    <div class="wow fadeInUp" data-wow-duration=".3" data-wow-delay=".1s">
                                         <div class="s-plan-v1 g-text-center--xs g-bg-color--white g-padding-y-100--xs">
                                             <i class="g-display-block--xs g-font-size-40--xs g-color--primary g-margin-b-30--xs ti-archive"></i>
-                                            <h3 class="g-font-size-18--xs g-color--primary g-margin-b-30--xs"> 15 Jackpot</h3>
+                                            <h3 class="g-font-size-18--xs g-color--primary g-margin-b-30--xs">Package2</h3>
                                             <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-40--xs">
-                                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> we give this </li>
-                                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i>  we give this </li>
+                                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Get Sportpesa Mega Jackpot Prediction </li>
+                                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i>  For just </li>
                                             </ul>
                                             <div class="g-margin-b-40--xs">
                                                 <span class="s-plan-v1__price-mark">Ksh.</span>
-                                                <span class="s-plan-v1__price-tag">150</span>
+                                                <span class="s-plan-v1__price-tag">100</span>
                                             </div>
-                                            <button type="button" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--50 g-padding-x-50--xs" onclick="flip3()">Signup</button>
+                                            <button type="button" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--50 g-padding-x-50--xs" onclick="flip2()">Signup</button>
                                         </div>
                                     </div>
+                                </div>
+                                <div class="back flip">
+                                    <div class="wow fadeInUp" data-wow-duration=".3" data-wow-delay=".1s">
+                                        <div class="s-plan-v1 g-text-center--xs g-bg-color--primary g-padding-y-100--xs">
+                                            <i class="g-display-block--xs g-font-size-40--xs g-color--white g-margin-b-30--xs ti-wallet"></i>
+                                            <h3 class="g-font-size-18--xs g-color--white g-margin-b-30--xs">MPESA</h3>
+                                            <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-40--xs">
+                                                <li><i class="g-font-size-13--xs g-color--white g-margin-r-10--xs ti-check"></i> Enter the phone Number </li>
+                                                <li><i class="g-font-size-13--xs g-color--white g-margin-r-10--xs ti-check"></i> Enter the Transaction code </li>
+                                            </ul>
+                                            <div class="g-display-inline-block--xs">
+                                            <form class="input-group"  action="includes/mpesa.inc.php" method="POST">                                      
+        
+                                                    <input type="text" class="form-control s-form-v1__input g-radius--left-50 g-radius--right-50 text-uppercase" id="form-menu"  placeholder="*Phone Number" name="mpesaImsi">
+                                                
+                                                <div class="g-text-center--xs g-margin-b-5--xs">
+                                                    <input type="text" class="form-control s-form-v1__input g-radius--left-50 g-radius--right-50 text-uppercase" id="form-menu" placeholder="Trans Code" name="transcode">
+                                                </div>
+                                                <input type="hidden" name="subs" value="package2"/>
+                                                <div class="g-text-center--xs">
+                                                    <button type="submit" class="text-uppercase s-btn s-btn--xs s-btn--white-bg g-radius--50 g-font-weight--700" id="form-menu" name="submit">Submit</button>
+                                                </div>
+                                            </form>
+                                            </div>
+                                            <br>    
+                                            <button type="button" class="text-uppercase s-btn s-btn--sm s-btn--white-bg g-radius--50 g-padding-x-50--xs" onclick="flip2()">Done</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
                     </div>
                     <!-- End Plan -->
                     
                     <!-- Plan -->
-                    <div class="col-md-4">
-                        <div class="wow fadeInUp" data-wow-duration=".3" data-wow-delay=".1s">
+                    <div class="col-md-3 g-margin-b-10--xs g-margin-b-0--lg">
+                        <section class="container1">
+                            <div class="card3">
+                                <div class="front flip">
+                                    <div class="wow fadeInUp" data-wow-duration=".3" data-wow-delay=".1s">
                                         <div class="s-plan-v1 g-text-center--xs g-bg-color--white g-padding-y-100--xs">
                                             <i class="g-display-block--xs g-font-size-40--xs g-color--primary g-margin-b-30--xs ti-archive"></i>
-                                            <h3 class="g-font-size-18--xs g-color--primary g-margin-b-30--xs"> 15 Jackpot</h3>
+                                            <h3 class="g-font-size-18--xs g-color--primary g-margin-b-30--xs">Package 3</h3>
                                             <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-40--xs">
-                                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> we give this </li>
-                                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i>  we give this </li>
+                                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Get Betway Jackpot-Pick 13 of 34M </li>
+                                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i>  For just </li>
                                             </ul>
                                             <div class="g-margin-b-40--xs">
                                                 <span class="s-plan-v1__price-mark">Ksh.</span>
-                                                <span class="s-plan-v1__price-tag">150</span>
+                                                <span class="s-plan-v1__price-tag">100</span>
                                             </div>
                                             <button type="button" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--50 g-padding-x-50--xs" onclick="flip3()">Signup</button>
                                         </div>
                                     </div>
+                                </div>
+                                <div class="back flip">
+                                    <div class="wow fadeInUp" data-wow-duration=".3" data-wow-delay=".1s">
+                                        <div class="s-plan-v1 g-text-center--xs g-bg-color--primary g-padding-y-100--xs">
+                                            <i class="g-display-block--xs g-font-size-40--xs g-color--white g-margin-b-30--xs ti-wallet"></i>
+                                            <h3 class="g-font-size-18--xs g-color--white g-margin-b-30--xs">MPESA</h3>
+                                            <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-40--xs">
+                                                <li><i class="g-font-size-13--xs g-color--white g-margin-r-10--xs ti-check"></i> Enter the phone Number </li>
+                                                <li><i class="g-font-size-13--xs g-color--white g-margin-r-10--xs ti-check"></i> Enter the Transaction code </li>
+                                            </ul>
+                                            <div class="g-display-inline-block--xs">
+                                            <form class="input-group"  action="includes/mpesa.inc.php" method="POST">                                      
+        
+                                                    <input type="text" class="form-control s-form-v1__input g-radius--left-50 g-radius--right-50 text-uppercase" id="form-menu"  placeholder="*Phone Number" name="mpesaImsi">
+                                                
+                                                <div class="g-text-center--xs g-margin-b-5--xs">
+                                                    <input type="text" class="form-control s-form-v1__input g-radius--left-50 g-radius--right-50 text-uppercase" id="form-menu" placeholder="Trans Code" name="transcode">
+                                                </div>
+                                                <input type="hidden" name="subs" value="package3"/>
+                                                <div class="g-text-center--xs">
+                                                    <button type="submit" class="text-uppercase s-btn s-btn--xs s-btn--white-bg g-radius--50 g-font-weight--700" id="form-menu" name="submit">Submit</button>
+                                                </div>
+                                            </form>
+                                            </div>
+                                            <br>    
+                                            <button type="button" class="text-uppercase s-btn s-btn--sm s-btn--white-bg g-radius--50 g-padding-x-50--xs" onclick="flip3()">Done</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <!-- End Plan -->
+
+                    <!-- Plan -->
+                    <div class="col-md-3 g-margin-b-10--xs g-margin-b-0--lg">
+                        <section class="container1">
+                            <div class="card4">
+                                <div class="front flip">
+                                    <div class="wow fadeInUp" data-wow-duration=".3" data-wow-delay=".1s">
+                                        <div class="s-plan-v1 g-text-center--xs g-bg-color--white g-padding-y-100--xs">
+                                            <i class="g-display-block--xs g-font-size-40--xs g-color--primary g-margin-b-30--xs ti-archive"></i>
+                                            <h3 class="g-font-size-18--xs g-color--primary g-margin-b-30--xs">Package 4</h3>
+                                            <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-40--xs">
+                                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Get betway Jackpot- Pick 15 of 38M </li>
+                                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i>  For just </li>
+                                            </ul>
+                                            <div class="g-margin-b-40--xs">
+                                                <span class="s-plan-v1__price-mark">Ksh.</span>
+                                                <span class="s-plan-v1__price-tag">100</span>
+                                            </div>
+                                            <button type="button" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--50 g-padding-x-50--xs" onclick="flip4()">Signup</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="back flip">
+                                    <div class="wow fadeInUp" data-wow-duration=".3" data-wow-delay=".1s">
+                                        <div class="s-plan-v1 g-text-center--xs g-bg-color--primary g-padding-y-100--xs">
+                                            <i class="g-display-block--xs g-font-size-40--xs g-color--white g-margin-b-30--xs ti-wallet"></i>
+                                            <h3 class="g-font-size-18--xs g-color--white g-margin-b-30--xs">MPESA</h3>
+                                            <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-40--xs">
+                                                <li><i class="g-font-size-13--xs g-color--white g-margin-r-10--xs ti-check"></i> Enter the phone Number </li>
+                                                <li><i class="g-font-size-13--xs g-color--white g-margin-r-10--xs ti-check"></i> Enter the Transaction code </li>
+                                            </ul>
+                                            <div class="g-display-inline-block--xs">
+                                            <form class="input-group"  action="includes/mpesa.inc.php" method="POST">                                      
+        
+                                                    <input type="text" class="form-control s-form-v1__input g-radius--left-50 g-radius--right-50 text-uppercase" id="form-menu"  placeholder="*Phone Number" name="mpesaImsi">
+                                                
+                                                <div class="g-text-center--xs g-margin-b-5--xs">
+                                                    <input type="text" class="form-control s-form-v1__input g-radius--left-50 g-radius--right-50 text-uppercase" id="form-menu" placeholder="Trans Code" name="transcode">
+                                                </div>
+                                                <input type="hidden" name="subs" value="package4"/>
+                                                <div class="g-text-center--xs">
+                                                    <button type="submit" class="text-uppercase s-btn s-btn--xs s-btn--white-bg g-radius--50 g-font-weight--700" id="form-menu" name="submit">Submit</button>
+                                                </div>
+                                            </form>
+                                            </div>
+                                            <br>    
+                                            <button type="button" class="text-uppercase s-btn s-btn--sm s-btn--white-bg g-radius--50 g-padding-x-50--xs" onclick="flip4()">Done</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
                     </div>
                     <!-- End Plan -->
 
@@ -150,7 +272,22 @@
         <!-- Vendor -->
         <script type="text/javascript">
             function flip() {
-                $('.card').toggleClass('flipped');
+                $('.card1').toggleClass('flipped');
+            }
+        </script>
+        <script type="text/javascript">
+            function flip2() {
+                $('.card2').toggleClass('flipped');
+            }
+        </script>
+                <script type="text/javascript">
+            function flip3() {
+                $('.card3').toggleClass('flipped');
+            }
+        </script>
+                <script type="text/javascript">
+            function flip4() {
+                $('.card4').toggleClass('flipped');
             }
         </script>
         <script type="text/javascript" src="vendor/jquery.min.js"></script>

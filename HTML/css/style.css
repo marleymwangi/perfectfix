@@ -399,7 +399,7 @@ fieldset[disabled] .s-btn {
     -o-perspective: 800px;
     perspective: 800px;
 }
-.card {
+.card1 , .card2 , .card3 , .card4 {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -413,7 +413,7 @@ fieldset[disabled] .s-btn {
     transform-style: preserve-3d;
     -webkit-transform-origin: 50% 50%;
 }
-.card .flip {
+.card1 .flip , .card2 .flip , .card3 .flip , .card4 .flip {
     height: 100%;
     width: 100%;
     position: absolute;
@@ -423,17 +423,18 @@ fieldset[disabled] .s-btn {
     backface-visibility: hidden;
 }
 
-.card .back {
+.card1 .back , .card2 .back , .card3 .back , .card4 .back {
     -webkit-transform: rotateY( 180deg );
     -moz-transform: rotateY( 180deg );
     -o-transform: rotateY( 180deg );
     transform: rotateY( 180deg );
 }
-.card.flipped {
+.card1.flipped , .card2.flipped , .card3.flipped , .card4.flipped{
     -webkit-transform: rotateY( 180deg );
     -moz-transform: rotateY( 180deg );
     -o-transform: rotateY( 180deg );
     transform: rotateY( 180deg );
+     z-index: 99 !important;
 }
 
 /*----------------------------------
