@@ -390,9 +390,22 @@ fieldset[disabled] .s-btn {
 /*----------------------------------
   Flip cards
 ------------------------------------*/
+#package1{
+  height:40rem;
+}
+#package2{
+  height:40rem;
+}
+div section {
+    position: absolute;
+    top:25%;
+    left: 25%;
+    bottom: 25%;
+    right: 25%;
+}
 .container1 {
-    width: 300px;
-    height: 500px;
+    width: 25rem;
+    height: 35rem;
     position: relative;
     -webkit-perspective: 800px;
     -moz-perspective: 800px;
@@ -434,6 +447,7 @@ fieldset[disabled] .s-btn {
     -moz-transform: rotateY( 180deg );
     -o-transform: rotateY( 180deg );
     transform: rotateY( 180deg );
+    z-index: 999999;
 }
 
 /*----------------------------------
@@ -943,7 +957,8 @@ fieldset[disabled] .s-btn {
 ------------------------------------*/
 /* Plan v1 */
 .s-plan-v1 {
-  box-shadow: 0.625rem 0.625rem 0.9375rem 0 rgba(31, 31, 31, 0.075);
+  box-shadow: 0.65rem 0.655rem 0.9rem 1rem rgba(31, 31, 31, 0.075);
+  border-radius: 25px;
 }
 
 .s-plan-v1__price-mark, .s-plan-v1__price-tag {

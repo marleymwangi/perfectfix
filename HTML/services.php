@@ -27,16 +27,16 @@
         <!--========== PAGE CONTENT ==========-->
 
         <!-- Plan -->
-        <div class="g-bg-color--sky-light">
+        <div class="g-bg-color--sky-light" >
             <div class="container g-padding-y-80--xs g-padding-y-125--xsm">
                 <div class="g-text-center--xs g-margin-b-80--xs">
                     <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Plan</p>
                     <h2 class="g-font-size-32--xs g-font-size-36--md">Finding your Plan</h2>
                 </div>
 
-                <div class="row g-row-col--5" id="package1">
+                <div class="row g-row-col--5 g-padding-y-10--xs"  id="package1" >
                     <!-- Plan -->
-                    <div class="col-md-3 g-margin-b-10--xs g-margin-b-0--lg">
+                    <div class="col-md-6 g-margin-b-10--xs g-margin-b-0--lg">
                         <section class="container1">
                             <div class="card1">
                                 <div class="front flip">
@@ -90,7 +90,7 @@
                     <!-- End Plan -->
 
                     <!-- Plan -->
-                    <div class="col-md-3 g-margin-b-10--xs g-margin-b-0--lg">
+                    <div class="col-md-6 g-margin-b-10--xs g-margin-b-0--lg">
                         <section class="container1">
                             <div class="card2">
                                 <div class="front flip">
@@ -143,9 +143,9 @@
                     </div>
                     <!-- End Plan -->
                 </div>
-                <div class="row g-row-col--5" id="package2"> 
+                <div class="row g-row-col--5 g-padding-y-10--xs"  id="package2" >
                     <!-- Plan -->
-                    <div class="col-md-3 g-margin-b-10--xs g-margin-b-0--lg">
+                    <div class="col-md-6 g-margin-b-10--xs g-margin-b-0--lg">
                         <section class="container1">
                             <div class="card3">
                                 <div class="front flip">
@@ -199,7 +199,7 @@
                     <!-- End Plan -->
 
                     <!-- Plan -->
-                    <div class="col-md-3 g-margin-b-10--xs g-margin-b-0--lg">
+                    <div class="col-md-6 g-margin-b-10--xs g-margin-b-0--lg">
                         <section class="container1">
                             <div class="card4">
                                 <div class="front flip">
@@ -251,6 +251,8 @@
                         </section>
                     </div>
                     <!-- End Plan -->
+
+
 
                 </div>
             </div>
