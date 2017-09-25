@@ -65,7 +65,7 @@
                         </div>
                         <div class="g-media__body g-padding-x-20--xs">
                             <h3 class="g-font-size-18--xs"> WE GIVE YOU SUPERIOR DATA!</h3>
-                            <p class="g-margin-b-0--xs">Some other soccer prediction websites just offer you a listing of the probabilities for the 3 possible 1X2 match outcomes. We go way beyond that! We provide all the information the serious Bettor will ever need to make excellent betting selections! You will never have to look elsewhere for essential betting data, it’s all here! How many other prediction services do that for you?</p>
+                            <p class="g-margin-b-0--xs">While other soccer prediction sites only offer you a listing of the probabilities for the possible 1x2 match outcomes, we go beyond that! We provide all the information needed by any serious bettor to make excellent betting choices.</p>
                         </div>
                     </div>
                 </div>
@@ -90,8 +90,8 @@
                             </div>
                         </div>
                         <div class="g-media__body g-padding-x-20--xs">
-                            <h3 class="g-font-size-18--xs">NO SENSE IN YOU GOING IT ALONE!</h3>
-                            <p class="g-margin-b-0--xs">To help you realise just how useful our Services could be to you, consider what you would need to do – and the time it would take you – to search out, by yourself, all the information you would need to answer the simple question as to "Which team is most likely to win this soccer match.</p>
+                            <h3 class="g-font-size-18--xs">NO SENSE IN YOU DOING IT ALONE!</h3>
+                            <p class="g-margin-b-0--xs">To help you realise just how useful our Services could be to you, consider what you would need to do – and the time it would take you – to search out, by yourself, all the information you would need to answer the simple question - Which team is most likely to win this soccer match?</p>
                         </div>
                     </div>
                 </div>
@@ -119,8 +119,8 @@
                             </div>
                         </div>
                         <div class="g-media__body g-padding-x-20--xs">
-                            <h3 class="g-font-size-18--xs">A WINNER - YOUR BRAIN + OUR COMPUTER'S OUTPUT!</h3>
-                            <p class="g-margin-b-0--xs">There may well be nagging doubts at the back of your mind telling you that no computer can produce reliable football predictions. And to a certain extent you would be right, of course - computers can only go so far. However, properly programmed and fed the right data, computers can give you a very good indication as to what ought to happen in a given soccer match.</p>
+                            <h3 class="g-font-size-18--xs">A WINNER - YOUR BRAIN + OUR COMPUTER OUTPUT!</h3>
+                            <p class="g-margin-b-0--xs">There may well be nagging doubts at the back of your mind telling you that no computer can produce reliable football predictions. And to a certain extent you would be right, of course - computers can only go so far. However when properly programmed and fed the right data, computers can give you a very good indication as to what ought to happen in a given soccer match.</p>
                         </div>
                     </div>
                 </div>
@@ -133,7 +133,7 @@
                         </div>
                         <div class="g-media__body g-padding-x-20--xs">
                             <h3 class="g-font-size-18--xs">OUR SERVICES ARE SO AFFORDABLE!</h3>
-                            <p class="g-margin-b-0--xs">Having seen for yourself the considerable amount of effort we put into providing our quality Soccer Prediction Services, one worry you may well have could be why we are offering the fruits of our labour so cheaply.</p>
+                            <p class="g-margin-b-0--xs">Having seen for yourself the considerable amount of effort we put into providing our quality Soccer Prediction Services, one worry you may well have could be why we are offering the fruits of our labour so cheaply. So dont delay! Subscribe with us today and immediately inprove your chances of winning</p>
                         </div>
                     </div>
                 </div>
