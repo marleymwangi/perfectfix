@@ -45,7 +45,7 @@
                                             <i class="g-display-block--xs g-font-size-40--xs g-color--primary g-margin-b-30--xs ti-archive"></i>
                                             <h3 class="g-font-size-18--xs g-color--primary g-margin-b-30--xs">Package1</h3>
                                             <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-40--xs">
-                                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Get 5 sure bets every day for 1 week </li>
+                                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Get 5 sure bets<br> every day for 1 week </li>
                                                 <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i>  For just </li>
                                             </ul>
                                             <div class="g-margin-b-40--xs">
@@ -99,7 +99,7 @@
                                             <i class="g-display-block--xs g-font-size-40--xs g-color--primary g-margin-b-30--xs ti-archive"></i>
                                             <h3 class="g-font-size-18--xs g-color--primary g-margin-b-30--xs">Package2</h3>
                                             <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-40--xs">
-                                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Get Sportpesa Mega Jackpot Prediction </li>
+                                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Get Sportpesa Mega<br> Jackpot Prediction </li>
                                                 <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i>  For just </li>
                                             </ul>
                                             <div class="g-margin-b-40--xs">
@@ -153,7 +153,7 @@
                                             <i class="g-display-block--xs g-font-size-40--xs g-color--primary g-margin-b-30--xs ti-archive"></i>
                                             <h3 class="g-font-size-18--xs g-color--primary g-margin-b-30--xs">Package 3</h3>
                                             <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-40--xs">
-                                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Get Betway Jackpot-Pick 13 of 34M </li>
+                                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Get Betway Jackpot<br>Pick 13 of 34M </li>
                                                 <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i>  For just </li>
                                             </ul>
                                             <div class="g-margin-b-40--xs">
@@ -207,7 +207,7 @@
                                             <i class="g-display-block--xs g-font-size-40--xs g-color--primary g-margin-b-30--xs ti-archive"></i>
                                             <h3 class="g-font-size-18--xs g-color--primary g-margin-b-30--xs">Package 4</h3>
                                             <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-40--xs">
-                                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Get betway Jackpot- Pick 15 of 38M </li>
+                                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Get betway Jackpot<br>Pick 15 of 38M </li>
                                                 <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i>  For just </li>
                                             </ul>
                                             <div class="g-margin-b-40--xs">
