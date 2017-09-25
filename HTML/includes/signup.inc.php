@@ -69,7 +69,7 @@ if (isset($_POST['submit'])) {
 
 							mysqli_query($conn, $sql);
 
-							header("Location: ../signup.php?signup=success");
+							header("Location: ../services.php?signup=success");
 							exit();
 						}
 					}

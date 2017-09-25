@@ -34,7 +34,7 @@
                     <h2 class="g-font-size-32--xs g-font-size-36--md">Finding your Plan</h2>
                 </div>
 
-                <div class="row g-row-col--5">
+                <div class="row g-row-col--5" id="package1">
                     <!-- Plan -->
                     <div class="col-md-3 g-margin-b-10--xs g-margin-b-0--lg">
                         <section class="container1">
@@ -50,9 +50,9 @@
                                             </ul>
                                             <div class="g-margin-b-40--xs">
                                                 <span class="s-plan-v1__price-mark">Ksh.</span>
-                                                <span class="s-plan-v1__price-tag">150</span>
+                                                <span class="s-plan-v1__price-tag">100</span>
                                             </div>
-                                            <button type="button" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--50 g-padding-x-50--xs" onclick="flip()">Signup</button>
+                                            <button type="button" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--50 g-padding-x-50--xs" onclick="flip()">Buy</button>
                                         </div>
                                     </div>
                                 </div>
@@ -106,7 +106,7 @@
                                                 <span class="s-plan-v1__price-mark">Ksh.</span>
                                                 <span class="s-plan-v1__price-tag">100</span>
                                             </div>
-                                            <button type="button" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--50 g-padding-x-50--xs" onclick="flip2()">Signup</button>
+                                            <button type="button" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--50 g-padding-x-50--xs" onclick="flip2()">Buy</button>
                                         </div>
                                     </div>
                                 </div>
@@ -142,7 +142,8 @@
                         </section>
                     </div>
                     <!-- End Plan -->
-                    
+                </div>
+                <div class="row g-row-col--5" id="package2"> 
                     <!-- Plan -->
                     <div class="col-md-3 g-margin-b-10--xs g-margin-b-0--lg">
                         <section class="container1">
@@ -160,7 +161,7 @@
                                                 <span class="s-plan-v1__price-mark">Ksh.</span>
                                                 <span class="s-plan-v1__price-tag">100</span>
                                             </div>
-                                            <button type="button" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--50 g-padding-x-50--xs" onclick="flip3()">Signup</button>
+                                            <button type="button" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--50 g-padding-x-50--xs" onclick="flip3()">Buy</button>
                                         </div>
                                     </div>
                                 </div>
@@ -183,7 +184,7 @@
                                                 </div>
                                                 <input type="hidden" name="subs" value="package3"/>
                                                 <div class="g-text-center--xs">
-                                                    <button type="submit" class="text-uppercase s-btn s-btn--xs s-btn--white-bg g-radius--50 g-font-weight--700" id="form-menu" name="submit">Submit</button>
+                                                    <button type="submit" class="text-uppercase s-btn s-btn--xs s-btn--white-bg g-radius--50 g-font-weight--700" id="form-menu" name="submit">Buy</button>
                                                 </div>
                                             </form>
                                             </div>

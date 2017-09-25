@@ -53,7 +53,7 @@
         <div id="js__scroll-to-section" class="container g-padding-y-80--xs g-padding-y-125--sm">
             <div class="g-text-center--xs g-margin-b-100--xs">
                 <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Welcome to PerfectFit</p>
-                <h2 class="g-font-size-32--xs g-font-size-36--md">We help you Improve your Chances<br> That guide you to Successful.</h2>
+                <h2 class="g-font-size-32--xs g-font-size-36--md">We help you Improve your Chances<br> That will guide you to Success.</h2>
             </div>
             <div class="row g-margin-b-60--xs g-margin-b-70--md">
                 <div class="col-sm-4 g-margin-b-60--xs g-margin-b-0--md">
@@ -148,7 +148,7 @@
                 <div class="g-margin-b-80--xs">
                     <h2 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md g-color--white">Subscribe to our Prediction packages</h2>
                 </div>
-                <a href="signup.php" class="text-uppercase s-btn s-btn--md s-btn--white-brd g-radius--50">Subscribe</a>
+                <a href="signup.php" class="text-uppercase s-btn s-btn--md s-btn--white-brd g-radius--50">Join Us</a>
             </div>
         </div>
         <!-- End Parallax -->
