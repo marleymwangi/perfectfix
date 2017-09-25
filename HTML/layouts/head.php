@@ -3,7 +3,7 @@
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Perfect</title>
+        <title>PerfectFix</title>
         <meta name="keywords" content="HTML5 Theme" />
         <meta name="description" content="Perfect Fix Prediction Services">
         <meta name="author" content="perfectfix.co">
