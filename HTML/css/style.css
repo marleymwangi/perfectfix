@@ -391,10 +391,12 @@ fieldset[disabled] .s-btn {
   Flip cards
 ------------------------------------*/
 #package1{
-  height:40rem;
+  height:auto;
+  padding:5rem;
 }
 #package2{
-  height:40rem;
+  height:auto;
+  padding:5rem;
 }
 div section {
     position: absolute;
