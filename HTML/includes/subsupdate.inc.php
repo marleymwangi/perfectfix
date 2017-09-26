@@ -3,22 +3,21 @@ include_once 'dbh.inc.php';
 session_start();
 
 $transaction=true;
-$subs='weekgames';
-echo $subs;
+$subs='package4';
 
-$weekgames =0;$thirteenj =0;$fifteenj =0;$seventeenj = 0;
+$package1 =0; $package2 =0; $package3 =0; $package4 = 0;
 switch ($subs) {
-	case 'weekgames':
-		$weekgames = 1;
+	case 'package1':
+		$package1 = 1;
 		break;
-	case 'thirteenj':
-		$thirteenj = 1;
+	case 'package2':
+		$package2 = 1;
 		break;
-	case 'fifteenj':
-		$fifteenj = 1;
+	case 'package3':
+		$package3 = 1;
 		break;
-	case 'seventeenj':
-		$seventeenj = 1;
+	case 'package4':
+		$package4 = 1;
 		break;
 	default:
 		header("Location: ../services.php?subsdata=error");
@@ -39,7 +38,7 @@ if ($transaction==true) {
 		$result = mysqli_query($conn, $sql);
 
 	}elseif ($resultCheck = 1) {
-		$sql = "INSERT INTO subs (userId, weekgames, thirteenj, fifteenj,seventeenj) VALUES ('$userId','$weekgames','$thirteenj', '$fifteenj','$seventeenj');";
+		$sql = "INSERT INTO subs (userId, package1, package2, package3 , package4) VALUES ('$userId','$package1','$package2','$package3', '$package4');";
 		$result = mysqli_query($conn, $sql);
 	}
 

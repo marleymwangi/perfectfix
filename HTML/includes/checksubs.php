@@ -9,10 +9,10 @@ $resultCheck = mysqli_num_rows($result);
 
 if ($resultCheck > 0){
 	while ($row = mysqli_fetch_assoc($result)) {
-		$weekgames = $row['weekgames'];
-		$thirteenj = $row['thirteenj'];
-		$fifteenj = $row['fifteenj'];
-		$seventeenj = $row['seventeenj'];
+		$weekgames = $row['package1'];
+		$thirteenj = $row['package2'];
+		$fifteenj = $row['package3'];
+		$seventeenj = $row['package4'];
 	}
 }
 

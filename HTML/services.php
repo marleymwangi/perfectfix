@@ -42,11 +42,11 @@
                                 <div class="front flip">
                                     <div class="wow fadeInUp" data-wow-duration=".3" data-wow-delay=".1s">
                                         <div class="s-plan-v1 g-text-center--xs g-bg-color--white g-padding-y-100--xs">
-                                            <i class="g-display-block--xs g-font-size-40--xs g-color--primary g-margin-b-30--xs ti-archive"></i>
+                                            <i class="g-display-block--xs g-font-size-40--xs g-color--primary g-margin-b-30--xs ti-cup"></i>
                                             <h3 class="g-font-size-18--xs g-color--primary g-margin-b-30--xs">Package1</h3>
                                             <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-40--xs">
-                                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Get 5 sure bets<br> every day for 1 week </li>
-                                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i>  For just </li>
+                                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i>Get 5 sure bets<br>every day for 1 week</li>
+                                                <li><i class="g-font-size-18--xs g-color--primary g-margin-r-10--xs ti-arrow-circle-down"></i>  For just </li>
                                             </ul>
                                             <div class="g-margin-b-40--xs">
                                                 <span class="s-plan-v1__price-mark">Ksh.</span>
@@ -96,11 +96,11 @@
                                 <div class="front flip">
                                     <div class="wow fadeInUp" data-wow-duration=".3" data-wow-delay=".1s">
                                         <div class="s-plan-v1 g-text-center--xs g-bg-color--white g-padding-y-100--xs">
-                                            <i class="g-display-block--xs g-font-size-40--xs g-color--primary g-margin-b-30--xs ti-archive"></i>
+                                            <i class="g-display-block--xs g-font-size-40--xs g-color--primary g-margin-b-30--xs ti-cup"></i>
                                             <h3 class="g-font-size-18--xs g-color--primary g-margin-b-30--xs">Package2</h3>
                                             <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-40--xs">
-                                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Get Sportpesa Mega<br> Jackpot Prediction </li>
-                                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i>  For just </li>
+                                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i>Pick 13 of 34M<br>Jackpot Prediction </li>
+                                                <li><i class="g-font-size-18--xs g-color--primary g-margin-r-10--xs ti-arrow-circle-down"></i>  For just </li>
                                             </ul>
                                             <div class="g-margin-b-40--xs">
                                                 <span class="s-plan-v1__price-mark">Ksh.</span>
@@ -151,11 +151,11 @@
                                 <div class="front flip">
                                     <div class="wow fadeInUp" data-wow-duration=".3" data-wow-delay=".1s">
                                         <div class="s-plan-v1 g-text-center--xs g-bg-color--white g-padding-y-100--xs">
-                                            <i class="g-display-block--xs g-font-size-40--xs g-color--primary g-margin-b-30--xs ti-archive"></i>
+                                            <i class="g-display-block--xs g-font-size-40--xs g-color--primary g-margin-b-30--xs ti-cup"></i>
                                             <h3 class="g-font-size-18--xs g-color--primary g-margin-b-30--xs">Package 3</h3>
                                             <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-40--xs">
-                                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Get Betway Jackpot<br>Pick 13 of 34M </li>
-                                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i>  For just </li>
+                                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i>Pick 15 of 38M<br>Jackpot Prediction</li>
+                                                <li><i class="g-font-size-18--xs g-color--primary g-margin-r-10--xs ti-arrow-circle-down"></i>  For just </li>
                                             </ul>
                                             <div class="g-margin-b-40--xs">
                                                 <span class="s-plan-v1__price-mark">Ksh.</span>
@@ -205,17 +205,17 @@
                                 <div class="front flip">
                                     <div class="wow fadeInUp" data-wow-duration=".3" data-wow-delay=".1s">
                                         <div class="s-plan-v1 g-text-center--xs g-bg-color--white g-padding-y-100--xs">
-                                            <i class="g-display-block--xs g-font-size-40--xs g-color--primary g-margin-b-30--xs ti-archive"></i>
+                                            <i class="g-display-block--xs g-font-size-40--xs g-color--primary g-margin-b-30--xs ti-cup"></i>
                                             <h3 class="g-font-size-18--xs g-color--primary g-margin-b-30--xs">Package 4</h3>
                                             <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-40--xs">
-                                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Get betway Jackpot<br>Pick 15 of 38M </li>
-                                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i>  For just </li>
+                                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i>Get Sportpesa Mega<br>Jackpot Prediction</li>
+                                                <li><i class="g-font-size-18--xs g-color--primary g-margin-r-10--xs ti-arrow-circle-down"></i>  For just </li>
                                             </ul>
                                             <div class="g-margin-b-40--xs">
                                                 <span class="s-plan-v1__price-mark">Ksh.</span>
                                                 <span class="s-plan-v1__price-tag">100</span>
                                             </div>
-                                            <button type="button" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--50 g-padding-x-50--xs" onclick="flip4()">Signup</button>
+                                            <button type="button" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--50 g-padding-x-50--xs" onclick="flip4()">Buy</button>
                                         </div>
                                     </div>
                                 </div>
