@@ -34,9 +34,9 @@
                     <h2 class="g-font-size-32--xs g-font-size-36--md">Finding your Plan</h2>
                 </div>
 
-                <div class="row g-row-col--5 g-padding-y-10--xs"  id="package1" >
+                <div class="row g-row-col--5 g-padding-y-10--xs"  id="package" >
                     <!-- Plan -->
-                    <div class="col-md-6 g-margin-b-10--xs g-margin-b-0--lg">
+                    <div class="col-md-6 g-margin-b-10--xs g-padding-y-20--xs g-margin-b-0--lg">
                         <section class="container1">
                             <div class="card1">
                                 <div class="front flip">
@@ -90,7 +90,7 @@
                     <!-- End Plan -->
 
                     <!-- Plan -->
-                    <div class="col-md-6 g-margin-b-10--xs g-margin-b-0--lg">
+                    <div class="col-md-6 g-margin-b-10--xs g-padding-y-20--xs g-margin-b-0--lg">
                         <section class="container1">
                             <div class="card2">
                                 <div class="front flip">
@@ -143,9 +143,9 @@
                     </div>
                     <!-- End Plan -->
                 </div>
-                <div class="row g-row-col--5 g-padding-y-10--xs"  id="package2" >
+                <div class="row g-row-col--5 g-padding-y-10--xs"  id="package" >
                     <!-- Plan -->
-                    <div class="col-md-6 g-margin-b-10--xs g-margin-b-0--lg">
+                    <div class="col-md-6 g-margin-b-10--xs g-padding-y-20--xs g-margin-b-0--lg">
                         <section class="container1">
                             <div class="card3">
                                 <div class="front flip">
@@ -199,7 +199,7 @@
                     <!-- End Plan -->
 
                     <!-- Plan -->
-                    <div class="col-md-6 g-margin-b-10--xs g-margin-b-0--lg">
+                    <div class="col-md-6 g-margin-b-10--xs g-padding-y-20--xs g-margin-b-0--lg">
                         <section class="container1">
                             <div class="card4">
                                 <div class="front flip">

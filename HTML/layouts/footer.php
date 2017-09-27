@@ -44,7 +44,7 @@
                         </a>
                     </div>
                     <div class="col-xs-6 g-text-right--xs">
-                        <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light"><a href="http://keenthemes.com/preview/Megakit/">PerfectFix</a> Prediction Powered by: <a href="http://www.perfectfix.co/">perfectfix.com</a></p>
+                        <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light"><a href="http://keenthemes.com/preview/Megakit/">PerfectFix</a> Prediction Powered by: <a href="http://www.perfectfix.co/">perfectfix.co</a></p>
                     </div>
                 </div>
             </div>
