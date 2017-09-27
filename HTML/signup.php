@@ -26,7 +26,7 @@
                         <div class="g-text-center--xs">
                             <i class="g-display-block--xs g-font-size-40--xs g-color--white-opacity g-margin-b-30--xs ti-email"></i>
                             <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Email</h4>
-                            <p class="g-color--white-opacity">mathew@gmail.com</p>
+                            <p class="g-color--white-opacity">info@perfectfix.co</p>
                         </div>
                     </div>
                     <div class="col-xs-6 g-full-width--xs">
