@@ -397,7 +397,7 @@ fieldset[disabled] .s-btn {
 div section {
     position: absolute;
     top:25%;
-    left: 25%;
+    left: 5%;
     bottom: 25%;
     right: 25%;
 }
