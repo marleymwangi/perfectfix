@@ -2,7 +2,7 @@
 include_once 'dbh.inc.php';
 session_start();
 
-$transaction=true;
+$confirrmed=true;
 $subs='package4';
 
 $package1 =0; $package2 =0; $package3 =0; $package4 = 0;

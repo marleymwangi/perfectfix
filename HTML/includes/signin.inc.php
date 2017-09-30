@@ -20,7 +20,7 @@ if (isset($_POST['submit'])) {
 	} else {
 
 		//retrieve user info from database
-		$sql = "SELECT * FROM users WHERE userName = '$userName' OR email = '$userName'";
+		$sql = "SELECT * FROM users WHERE userName = '$userName' OR email = '$userName';";
 		$result = mysqli_query ($conn, $sql);
 		$resultcheck = mysqli_num_rows ($result);
 

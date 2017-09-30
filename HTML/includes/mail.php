@@ -2,30 +2,53 @@
 /* try to connect */
 $inbox = imap_open('{imappro.zoho.com:993/imap/ssl/novalidate-cert} /Inbox','trans@perfectfix.co','perfectfix') or die('Cannot connect to perfectfix domain');
 /* grab emails */
-$emails = imap_search($inbox,'ALL');
+$emails = imap_search($inbox,'UNSEEN');
 /* if emails are returned, cycle through each... */
-if($emails) {        
-        /* begin output var */
-        $output = '';        
+if($emails) {                
         /* put the newest emails on top */
         rsort($emails);        
         /* for every email... */
         foreach($emails as $email_number) {                
                 /* get information specific to this email */
                 $overview = imap_fetch_overview($inbox,$email_number,0);
-                $message = imap_fetchbody($inbox,$email_number,2);                
+                $message = quoted_printable_decode(imap_fetchbody($inbox, $email_number, 1));      
                 /* output the email header information */
-                $output.= '<div class="toggler '.($overview[0]->seen ? 'read' : 'unread').'">';
-                $output.= '<span class="subject">'.$overview[0]->subject.'</span> ';
-                $output.= '<span class="from">'.$overview[0]->from.'</span>';
-                $output.= '<span class="date">on '.$overview[0]->date.'</span>';
-                $output.= '</div>';
+                $seens[] = $overview[0]->seen;
+                $froms[] = $overview[0]->from;
                 
                 /* output the email body */
-                $output.= '<div class="body">'.$message.'</div>';
-        }        
-        echo $output;
+                $messages[] = $message;
+                $words = explode(" ", $message);
+                $transdetails[]=array($words[0],$words[7]);
+
+                /* change the status */
+                /* change the status */
+                $status = imap_setflag_full($inbox, $overview[0]->msgno, "\Seen \Flagged");
+                                
+        }
+
+
+
+include_once 'dbh.inc.php';
+
+foreach ($transdetails as $details) {
+
+        $phoneNo = $details[1];
+        $conCode = password_hash($deatails[0], PASSWORD_DEFAULT);
+        $sql = "SELECT * FROM confirmation WHERE transcode = '$conCode';";
+        $result = mysqli_query ($conn, $sql);
+        $resultcheck = mysqli_num_rows ($result);
+
+                        if ($resultcheck < 1) {
+                                $sql = "INSERT INTO confirmation (transcode, phoneNo, used) VALUES ('$conCode', '$phoneNo', '0');";
+                                $result = mysqli_query ($conn, $sql);
+                                $resultcheck = mysqli_num_rows ($result);
+                        }
+
 }
+
+}
+
 imap_close($inbox);
 
 ?>

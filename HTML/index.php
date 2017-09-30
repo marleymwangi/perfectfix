@@ -20,7 +20,7 @@
                 <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('img/1920x1080/02.jpg');">
                     <div class="container g-text-center--xs g-ver-center--xs">
                         <div class="g-margin-b-30--xs">
-                            <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">Welcome to Perfect Fix<br> The Place you make your own luck</h1>
+                            <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">Welcome to PerfectFix<br> The Place you make your own luck</h1>
                         </div>
                     </div>
                 </div>
@@ -28,7 +28,7 @@
                     <div class="container g-text-center--xs g-ver-center--xs">
                         <div class="g-margin-b-30--xs">
                             <div class="g-margin-b-30--xs">
-                                <h2 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">Be a Winner<br>With Perfectfix</h2>
+                                <h2 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">Be a Winner<br>With PerfectFix</h2>
                             </div>
                         </div>
                     </div>
@@ -52,7 +52,7 @@
         <!-- Features -->
         <div id="js__scroll-to-section" class="container g-padding-y-80--xs g-padding-y-125--sm">
             <div class="g-text-center--xs g-margin-b-100--xs">
-                <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Welcome to PerfectFit</p>
+                <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Welcome to PerfectFix</p>
                 <h2 class="g-font-size-32--xs g-font-size-36--md">We help you Improve your Chances<br> That will guide you to Success.</h2>
             </div>
             <div class="row g-margin-b-60--xs g-margin-b-70--md">

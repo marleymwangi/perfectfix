@@ -27,7 +27,7 @@
                             </ul>
                         </div>
                         <div class="col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 s-footer__logo g-padding-y-50--xs g-padding-y-0--md">
-                            <h3 class="g-font-size-18--xs g-color--white">PerfectFit</h3>
+                            <h3 class="g-font-size-18--xs g-color--white">PerfectFix</h3>
                             <p class="g-color--white-opacity">We are a company focusing on data collection &amp; analysis to Predict outcomes of certain Events.</p>
                         </div>
                     </div>
