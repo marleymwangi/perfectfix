@@ -37,7 +37,7 @@
                 <div class="s-header-bg-overlay js__bg-overlay">
                     <!-- Nav -->
                     <nav class="s-header__nav js__scrollbar">
-                        <div class="container-fluid">
+                        <div class="container-fluid g-height-400--xs">
 
                             <!-- Menu List -->                                
                             <div id="menumain"><?php include "menumain.php" ?></div>

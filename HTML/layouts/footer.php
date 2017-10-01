@@ -21,7 +21,6 @@
                         </div>
                         <div class="col-sm-2 g-margin-b-40--xs g-margin-b-0--md">
                             <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Subscribe to Our Newsletter</a></li>
                                 <li><a class="g-font-size-15--xs g-color--white-opacity" href="privacy.php">Privacy Policy</a></li>
                                 <li><a class="g-font-size-15--xs g-color--white-opacity" href="terms&conditions.php">Terms &amp; Conditions</a></li>
                             </ul>
