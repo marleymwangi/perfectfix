@@ -77,21 +77,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="cbp-item community">
-                                <div class="cbp-caption">
-                                    <div class="s-faq-grid__divider cbp-caption-defaultWrap">
-                                        <svg width="19" height="19" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill="#fff" d="M1062 150q-317 121-556 362.5t-358 560.5q-20-89-20-176 0-208 102.5-384.5t278.5-279 384-102.5q82 0 169 19zm269 119q93 65 164 155-389 113-674.5 400.5t-396.5 676.5q-93-72-155-162 112-386 395-671t667-399zm-733 1334q115-356 379.5-622t619.5-384q40 92 54 195-292 120-516 345t-343 518q-103-14-194-52zm1066 58q-193-50-367-115-135 84-290 107 109-205 274-370.5t369-275.5q-21 152-101 284 65 175 115 370z"/>
-                                        </svg>
-                                        <h3 class="s-faq-grid__title">Forum Comments by Envato Staff &amp; Moderators</h3>
-                                    </div>
-                                    <div class="cbp-caption-activeWrap">
-                                        <div class="g-color--white-opacity">
-                                            Envato is extremely fortunate to have a huge community with highly engaged users. Part of our community’s time on Envato Market is spent within our forums, our common grounds for communication. In order to clarify the different roles and responsibilities of the various people and roles that post in our forums we hope you find the following information useful.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                             <div class="cbp-item buying">
                                 <div class="cbp-caption">
                                     <div class="s-faq-grid__divider cbp-caption-defaultWrap">
@@ -305,12 +290,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
-                    <form class="input-group">
-                        <input type="email" class="form-control s-form-v5__input g-radius--left-50" name="email" placeholder="Enter your email">
-                        <span class="input-group-btn">
-                            <button type="submit" class="s-btn s-btn-icon--md s-btn-icon--dark-brd s-btn--dark-brd g-radius--right-50"><i class="ti-arrow-right"></i></button>
-                        </span>
-                    </form>
+                    <a href="signup.php" class="text-uppercase s-btn--primary s-btn--md s-btn--primary-brd g-radius--50 g-color--primary">Join Us</a>
                 </div>
             </div>
         </div>
