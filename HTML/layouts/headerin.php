@@ -1,3 +1,4 @@
+<div class="form_user_input">
 <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider <?php if ($page=='predictions') {echo'-is-active'; }?>" href="signup.php">Create an Account</a></li>
 <div class="s-header__nav-menu-item">
 	<div class="col-sm-12 col-sm-offset-3 col-xs-10 col-xs-offset-1">
@@ -13,4 +14,5 @@
 	    </div>
 	</form>
 	</div>
+</div>
 </div>
