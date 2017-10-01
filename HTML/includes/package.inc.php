@@ -13,7 +13,6 @@
 
 
 			if (empty($mpesaImsi) || empty($transcode)) {
-		
 				header("Location: ../services.php?field=empty");
 				exit();
 

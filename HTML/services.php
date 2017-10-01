@@ -287,6 +287,7 @@
                 $('.card4').toggleClass('flipped');
             }
         </script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
         <script type="text/javascript" src="vendor/jquery.min.js"></script>
         <script type="text/javascript" src="vendor/jquery.migrate.min.js"></script>
         <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>

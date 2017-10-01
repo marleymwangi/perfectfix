@@ -11,8 +11,9 @@
     	<!--========== HEADER ==========-->
         <?php $page='home'; include ("layouts/header.php"); ?>
         <!--========== END HEADER ==========-->
-        
+
         <!--========== SWIPER SLIDER ==========-->
+
         <div class="s-swiper js__swiper-one-item">
             <!-- Swiper Wrapper -->
             <div class="swiper-wrapper">
@@ -193,6 +194,7 @@
 
         <!--========== JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) ==========-->
         <!-- Vendor -->
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
         <script type="text/javascript" src="vendor/jquery.min.js"></script>
         <script type="text/javascript" src="vendor/jquery.migrate.min.js"></script>
         <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>

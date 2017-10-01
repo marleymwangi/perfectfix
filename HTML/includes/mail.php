@@ -41,12 +41,10 @@ foreach ($transdetails as $details) {
         $result = mysqli_query ($conn, $sql);
         $resultcheck = mysqli_num_rows ($result);
 
-        echo $conCode." ".$phoneNo." ".$amount;
-
-                        if ($resultcheck < 1) {
-                                $sql = "INSERT INTO confirmation (transcode, phoneNo, amount) VALUES ('$conCode', '$phoneNo', '$amount');";
-                                $result = mysqli_query ($conn, $sql);
-                        }
+        if ($resultcheck < 1) {
+                $sql = "INSERT INTO confirmation (transcode, phoneNo, amount) VALUES ('$conCode', '$phoneNo', '$amount');";
+                $result = mysqli_query ($conn, $sql);
+        }
 
 
 }
