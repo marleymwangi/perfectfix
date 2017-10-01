@@ -20,7 +20,10 @@
 			} else {
 				//hash mpesa transaction code
 
+				$transcode = trim($transcode);
+				$mpesaImsi = trim($mpesaImsi);
 				$transcode = strtoupper($transcode);
+
 				//retrieve user info from database
 				$sql = "INSERT INTO mpesatransactions ( userId, mpesaImsi, transcode ) VALUES ('$userId','$mpesaImsi', '$transcode');";
 				$result = mysqli_query ($conn, $sql);

@@ -8,11 +8,10 @@
 
     <!-- Body -->
     <body>
-
     	<!--========== HEADER ==========-->
         <?php $page='home'; include ("layouts/header.php"); ?>
         <!--========== END HEADER ==========-->
-
+        
         <!--========== SWIPER SLIDER ==========-->
         <div class="s-swiper js__swiper-one-item">
             <!-- Swiper Wrapper -->
@@ -49,6 +48,7 @@
         <!--========== END SWIPER SLIDER ==========-->
 
         <!--========== PAGE CONTENT ==========-->
+
         <!-- Features -->
         <div id="js__scroll-to-section" class="container g-padding-y-80--xs g-padding-y-125--sm">
             <div class="g-text-center--xs g-margin-b-100--xs">
