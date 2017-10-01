@@ -1,4 +1,5 @@
 <?php session_start() ?>
+<?php include ("includes/checksubs.php") ?>
 <!DOCTYPE html>
 
 <html lang="en">
@@ -16,8 +17,6 @@
     <link href="vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <!-- NProgress -->
     <link href="vendors/nprogress/nprogress.css" rel="stylesheet">
-    <!-- bootstrap-progressbar -->
-    <link href="vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
 
     <!-- Custom Theme Style -->
     <link href="css/custom.css" rel="stylesheet">
@@ -46,7 +45,6 @@
             <br />
 
             <!-- sidebar menu -->
-            <?php include ("includes/checksubs.php") ?>
             <?php include ("layouts/sidemenu.php"); ?>
             <!-- /sidebar menu -->
 
@@ -85,7 +83,7 @@
             <div class="row">
               <div class="col-md-12">
                 <div class="">
-                  <div class="x_content">
+                  <div class="x_content <?php if ($weekgames==0) {echo 'hidecontent';}  ?>">
                     <div class="row">
                       <div class="animated flipInY col-lg-5 col-md-5 col-sm-5 col-xs-5">
                         <div class="tile-stats <?php include 'includes/getgames.php'; if($homepred[0]>=$awaypred[0]) {echo('winner');}else{echo('loser');} ?>">
@@ -226,7 +224,7 @@
         <!-- footer content -->
         <footer>
           <div class="pull-right">
-            Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+             Result Provided by<a href="index.php">Perfectfix</a>
           </div>
           <div class="clearfix"></div>
         </footer>
@@ -244,12 +242,6 @@
     <script src="vendors/nprogress/nprogress.js"></script>    
     <!-- Chart.js -->
     <script src="vendors/Chart.js/dist/Chart.min.js"></script>
-    <!-- jQuery Sparklines -->
-    <script src="vendors/jquery-sparkline/dist/jquery.sparkline.min.js"></script>
-    <!-- easy-pie-chart -->
-    <script src="vendors/jquery.easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
-    <!-- bootstrap-progressbar -->
-    <script src="vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
 
     <!-- Custom Theme Scripts -->
     <script src="js/custom.min.js"></script>

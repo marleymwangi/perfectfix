@@ -4,7 +4,9 @@ html , body{
  height:100%;
  
 }
- 
+.hidecontent {
+    display:none;
+}
 .full-width {
 	
  width:100%;

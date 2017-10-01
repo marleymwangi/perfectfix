@@ -81,7 +81,36 @@
 
         <!--========== JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) ==========-->
         <!-- Vendor -->
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
         <script type="text/javascript" src="vendor/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                if(window.location.href.indexOf("signup=empty") > -1) {
+                   swal("Check Sign in Details", "One of the fields is empty", "error");;
+                }
+                if(window.location.href.indexOf("signup=invalidname") > -1) {
+                   swal("Check First or Last", "Names cannot contain Special Characters", "error");;
+                }
+                if(window.location.href.indexOf("signup=invaliduserName") > -1) {
+                   swal("Check User Name", "Account exist with that User Name", "error");;
+                }
+                if(window.location.href.indexOf("signup=invalidemail") > -1) {
+                   swal("Check Email address", "You entered an Invald Email address", "error");
+                }
+                if(window.location.href.indexOf("ssignup=invalidphone") > -1) {
+                   swal("Check Phone Number", "Account exist with that User Name", "error");;
+                }
+                if(window.location.href.indexOf("signup=signup=passmismatch") > -1) {
+                   swal("Password Mismatch", "Password Verification Mismatch", "error");;
+                }
+                if(window.location.href.indexOf("login=success") > -1) {
+                   swal("Transaction Complete", "Transaction is being processed. Might take a few minuites", "success");;
+                }
+                if(window.location.href.indexOf("login=notsignedinerror") > -1) {
+                   swal("Sorry", "You don't seem to be signed in", "info");;
+                }
+            });
+        </script>
         <script type="text/javascript" src="vendor/jquery.migrate.min.js"></script>
         <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="vendor/jquery.smooth-scroll.min.js"></script>
