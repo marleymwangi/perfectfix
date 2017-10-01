@@ -494,15 +494,6 @@ div section {
   height: 2.375rem;
 }
 
-.form_user_input{
-  height: 20rem;
-}
-
-@media (max-width: 700px){
-    #form-menu {
-      margin-right: 0rem;
-  }
-
 .form-menu-item{
   display: none;
 }
