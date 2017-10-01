@@ -32,6 +32,8 @@
                 <div class="g-text-center--xs g-margin-b-80--xs">
                     <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Plan</p>
                     <h2 class="g-font-size-32--xs g-font-size-36--md">Finding your Plan</h2>
+                    <br>
+                    <p class="text-uppercase g-font-size-8--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">To Pay. Send Money to 0700473319<br>Input the Transaction Code and Number in the spaces provided<br>click Buy</p>
                 </div>
 
                 <div class="row g-row-col--5 g-padding-y-10--xs"  id="package" >

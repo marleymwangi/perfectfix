@@ -18,16 +18,6 @@
                                 <a href="https://web.facebook.com/PerfectFix-473872129657567/"><img class="s-clients-v1" src="img/clients/03-dark.png" alt="Clients Logo"></a>
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".4s">
-                                <img class="s-clients-v1" src="img/clients/04-dark.png" alt="Clients Logo">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".5s">
-                                <img class="s-clients-v1" src="img/clients/05-dark.png" alt="Clients Logo">
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <!-- End Swiper Clients -->
