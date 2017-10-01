@@ -66,7 +66,7 @@
                                                 <li><i class="g-font-size-13--xs g-color--white g-margin-r-10--xs ti-check"></i> Enter the Transaction code </li>
                                             </ul>
                                             <div class="g-display-inline-block--xs">
-                                            <form class="input-group"  action="includes/mpesa.inc.php" method="POST">                                      
+                                            <form class="input-group"  action="includes/package.inc.php" method="POST">                                      
         
                                                     <input type="text" class="form-control s-form-v1__input g-radius--left-50 g-radius--right-50 text-uppercase" id="form-menu"  placeholder="*Phone Number" name="mpesaImsi">
                                                 
@@ -75,12 +75,10 @@
                                                 </div>
                                                 <input type="hidden" name="subs" value="package1"/>
                                                 <div class="g-text-center--xs">
-                                                    <button type="submit" class="text-uppercase s-btn s-btn--xs s-btn--white-bg g-radius--50 g-font-weight--700" id="form-menu" name="submit">Submit</button>
+                                                    <button type="submit" class="text-uppercase s-btn s-btn--xs s-btn--white-bg g-radius--50 g-font-weight--700" id="form-menu" name="submit">Buy</button>
                                                 </div>
                                             </form>
                                             </div>
-                                            <br>    
-                                            <button type="button" class="text-uppercase s-btn s-btn--sm s-btn--white-bg g-radius--50 g-padding-x-50--xs" onclick="flip()">Done</button>
                                         </div>
                                     </div>
                                 </div>
@@ -120,7 +118,7 @@
                                                 <li><i class="g-font-size-13--xs g-color--white g-margin-r-10--xs ti-check"></i> Enter the Transaction code </li>
                                             </ul>
                                             <div class="g-display-inline-block--xs">
-                                            <form class="input-group"  action="includes/mpesa.inc.php" method="POST">                                      
+                                            <form class="input-group"  action="includes/package.inc.php" method="POST">                                      
         
                                                     <input type="text" class="form-control s-form-v1__input g-radius--left-50 g-radius--right-50 text-uppercase" id="form-menu"  placeholder="*Phone Number" name="mpesaImsi">
                                                 
@@ -129,12 +127,10 @@
                                                 </div>
                                                 <input type="hidden" name="subs" value="package2"/>
                                                 <div class="g-text-center--xs">
-                                                    <button type="submit" class="text-uppercase s-btn s-btn--xs s-btn--white-bg g-radius--50 g-font-weight--700" id="form-menu" name="submit">Submit</button>
+                                                    <button type="submit" class="text-uppercase s-btn s-btn--xs s-btn--white-bg g-radius--50 g-font-weight--700" id="form-menu" name="submit">Buy</button>
                                                 </div>
                                             </form>
                                             </div>
-                                            <br>    
-                                            <button type="button" class="text-uppercase s-btn s-btn--sm s-btn--white-bg g-radius--50 g-padding-x-50--xs" onclick="flip2()">Done</button>
                                         </div>
                                     </div>
                                 </div>
@@ -175,7 +171,7 @@
                                                 <li><i class="g-font-size-13--xs g-color--white g-margin-r-10--xs ti-check"></i> Enter the Transaction code </li>
                                             </ul>
                                             <div class="g-display-inline-block--xs">
-                                            <form class="input-group"  action="includes/mpesa.inc.php" method="POST">                                      
+                                            <form class="input-group"  action="includes/package.inc.php" method="POST">                                      
         
                                                     <input type="text" class="form-control s-form-v1__input g-radius--left-50 g-radius--right-50 text-uppercase" id="form-menu"  placeholder="*Phone Number" name="mpesaImsi">
                                                 
@@ -188,8 +184,6 @@
                                                 </div>
                                             </form>
                                             </div>
-                                            <br>    
-                                            <button type="button" class="text-uppercase s-btn s-btn--sm s-btn--white-bg g-radius--50 g-padding-x-50--xs" onclick="flip3()">Done</button>
                                         </div>
                                     </div>
                                 </div>
@@ -229,7 +223,7 @@
                                                 <li><i class="g-font-size-13--xs g-color--white g-margin-r-10--xs ti-check"></i> Enter the Transaction code </li>
                                             </ul>
                                             <div class="g-display-inline-block--xs">
-                                            <form class="input-group"  action="includes/mpesa.inc.php" method="POST">                                      
+                                            <form class="input-group"  action="includes/package.inc.php" method="POST">                                      
         
                                                     <input type="text" class="form-control s-form-v1__input g-radius--left-50 g-radius--right-50 text-uppercase" id="form-menu"  placeholder="*Phone Number" name="mpesaImsi">
                                                 
@@ -238,12 +232,10 @@
                                                 </div>
                                                 <input type="hidden" name="subs" value="package4"/>
                                                 <div class="g-text-center--xs">
-                                                    <button type="submit" class="text-uppercase s-btn s-btn--xs s-btn--white-bg g-radius--50 g-font-weight--700" id="form-menu" name="submit">Submit</button>
+                                                    <button type="submit" class="text-uppercase s-btn s-btn--xs s-btn--white-bg g-radius--50 g-font-weight--700" id="form-menu" name="submit">Buy</button>
                                                 </div>
                                             </form>
                                             </div>
-                                            <br>    
-                                            <button type="button" class="text-uppercase s-btn s-btn--sm s-btn--white-bg g-radius--50 g-padding-x-50--xs" onclick="flip4()">Done</button>
                                         </div>
                                     </div>
                                 </div>

@@ -1,50 +1,71 @@
 <?php
 include_once 'dbh.inc.php';
-session_start();
 
-$confirrmed=true;
-$subs='package4';
+$sql = "SELECT * FROM pendingsubs;";
+$result = $conn->query($sql);
 
-$package1 =0; $package2 =0; $package3 =0; $package4 = 0;
-switch ($subs) {
-	case 'package1':
-		$package1 = 1;
-		break;
-	case 'package2':
-		$package2 = 1;
-		break;
-	case 'package3':
-		$package3 = 1;
-		break;
-	case 'package4':
-		$package4 = 1;
-		break;
-	default:
-		header("Location: ../services.php?subsdata=error");
-		exit();
-		break;
-}
+if ($result->num_rows > 0) {
+    // output data of each row
+    while($row = $result->fetch_assoc()) {
+    	$confirmed = false;
+        $userId = $row['userId'];
+        $subs = $row['subs'];
 
-if ($transaction==true) {
+        $sql = "SELECT * FROM users WHERE userId = '$userId' ;";
+		$result2 = mysqli_query($conn,$sql);
 
-	$userId = $_SESSION['userId'];
+		if ($row2 = mysqli_fetch_assoc($result2)) {
+			$amount = $row2['amount'];
 
-	$sql = "SELECT * FROM subs WHERE userId = '$userId';";
-	$result = mysqli_query($conn,$sql);
-	$resultCheck = mysqli_num_rows($result);
+			//check if account has enough funds
+			if ($amount >= 100.00) {
+				$confirmed = true;
+				//deduct 100 from account
+				$amount = ($amount - 100.00);
 
-	if ($resultCheck > 0) {
-		$sql="UPDATE subs SET $subs = 1 WHERE userId = '$userId' ;";
-		$result = mysqli_query($conn, $sql);
+				$sql = "UPDATE users SET amount = '$amount' WHERE userId = '$userId' ;";
+				mysqli_query($conn,$sql);
 
-	}elseif ($resultCheck = 1) {
-		$sql = "INSERT INTO subs (userId, package1, package2, package3 , package4) VALUES ('$userId','$package1','$package2','$package3', '$package4');";
-		$result = mysqli_query($conn, $sql);
+
+				$package1 =0; $package2 =0; $package3 =0; $package4 = 0;
+				switch ($subs) {
+					case 'package1':
+						$package1 = 1;
+						break;
+					case 'package2':
+						$package2 = 1;
+						break;
+					case 'package3':
+						$package3 = 1;
+						break;
+					case 'package4':
+						$package4 = 1;
+						break;
+					default:
+
+						break;
+				}
+
+				if ($confirmed==true) {
+
+						$sql = "SELECT * FROM subs WHERE userId = '$userId';";
+						$result3 = mysqli_query($conn,$sql);
+						$resultCheck3 = mysqli_num_rows($result3);
+
+						if ($resultCheck3 = 1) {
+							$sql="UPDATE subs SET $subs = 1 WHERE userId = '$userId' ;";
+							mysqli_query($conn, $sql);
+							$sql = "DELETE FROM pendingsubs WHERE userId= '$userId' ;";
+							mysqli_query($conn, $sql);
+						}
+					}
+
+			}
+
+		}
+
+        
 	}
-
-}else{
-	header("Location: ../services.php?subsdata=error");
-		exit();
 }
 
 ?>

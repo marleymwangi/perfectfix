@@ -13,10 +13,10 @@
                         </div>
                         <div class="col-sm-2 g-margin-b-20--xs g-margin-b-0--md">
                             <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Twitter</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Facebook</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Instagram</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">YouTube</a></li>
+                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="https://twitter.com/_PerfectFix_">Twitter</a></li>
+                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="https://web.facebook.com/PerfectFix-473872129657567/">Facebook</a></li>
+                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="">Instagram</a></li>
+                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="">YouTube</a></li>
                             </ul>
                         </div>
                         <div class="col-sm-2 g-margin-b-40--xs g-margin-b-0--md">

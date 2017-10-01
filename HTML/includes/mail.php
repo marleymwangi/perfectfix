@@ -19,7 +19,8 @@ if($emails) {
                 /* output the email body */
                 $messages[] = $message;
                 $words = explode(" ", $message);
-                $transdetails[]=array($words[0],$words[7]);
+                $transdetails[]=array($words[0],filter_var($words[7],FILTER_SANITIZE_NUMBER_INT),ltrim($words[4], 'Ksh'));
+
 
                 /* change the status */
                 /* change the status */
@@ -30,21 +31,25 @@ if($emails) {
 
 
 include_once 'dbh.inc.php';
-
+if ($emails) {
 foreach ($transdetails as $details) {
 
         $phoneNo = $details[1];
-        $conCode = password_hash($deatails[0], PASSWORD_DEFAULT);
+        $conCode = $details[0];
+        $amount = $details[2];
         $sql = "SELECT * FROM confirmation WHERE transcode = '$conCode';";
         $result = mysqli_query ($conn, $sql);
         $resultcheck = mysqli_num_rows ($result);
 
+        echo $conCode." ".$phoneNo." ".$amount;
+
                         if ($resultcheck < 1) {
-                                $sql = "INSERT INTO confirmation (transcode, phoneNo, used) VALUES ('$conCode', '$phoneNo', '0');";
+                                $sql = "INSERT INTO confirmation (transcode, phoneNo, amount) VALUES ('$conCode', '$phoneNo', '$amount');";
                                 $result = mysqli_query ($conn, $sql);
-                                $resultcheck = mysqli_num_rows ($result);
                         }
 
+
+}
 }
 
 }

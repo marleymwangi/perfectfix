@@ -21,14 +21,18 @@
 				//hash mpesa transaction code
 
 				$transcode = strtoupper($transcode);
-				$hashedcode = password_hash($transcode, PASSWORD_DEFAULT);
-
 				//retrieve user info from database
-				$sql = "INSERT INTO mpesatransactions ( userId,subs, mpesaImsi, transcode ) VALUES ('$userId','$subs','$mpesaImsi', '$hashedcode');";
+				$sql = "INSERT INTO mpesatransactions ( userId, mpesaImsi, transcode ) VALUES ('$userId','$mpesaImsi', '$transcode');";
+				$result = mysqli_query ($conn, $sql);
+
+				$sql = "INSERT INTO pendingSubs ( userId, subs) VALUES ('$userId','$subs');";
+				$result = mysqli_query ($conn, $sql);
+				
+				$sql = "INSERT INTO subs ( userId) VALUES ('$userId');";
 				$result = mysqli_query ($conn, $sql);
 
 				if ($result==true) {
-					header("Location: ../services.php?trans=success");
+					header("Location: ../services.php?trans=successful");
 					exit();
 				}
 				
