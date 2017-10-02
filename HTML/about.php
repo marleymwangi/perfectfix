@@ -130,7 +130,7 @@
             <div class="row g-hor-centered-row--md g-row-col--3 g-margin-b-60--xs g-margin-b-100--md">
                 <div class="col-sm-3 col-xs-6 g-hor-centered-row__col">
                     <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".1s">
-                        <img class="img-responsive" src="img/400x500/05.jpg" alt="Image">
+                        <img class="img-responsive" src="img/400x500/03.jpg" alt="Image">
                     </div>
                 </div>
                 <div class="col-sm-9"></div>
@@ -301,7 +301,6 @@
         <script type="text/javascript" src="vendor/jquery.smooth-scroll.min.js"></script>
         <script type="text/javascript" src="vendor/jquery.back-to-top.min.js"></script>
         <script type="text/javascript" src="vendor/scrollbar/jquery.scrollbar.min.js"></script>
-        <script type="text/javascript" src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
         <script type="text/javascript" src="vendor/jquery.parallax.min.js"></script>
         <script type="text/javascript" src="vendor/swiper/swiper.jquery.min.js"></script>
         <script type="text/javascript" src="vendor/jquery.wow.min.js"></script>
@@ -310,7 +309,6 @@
         <script type="text/javascript" src="js/global.min.js"></script>
         <script type="text/javascript" src="js/components/header-sticky.min.js"></script>
         <script type="text/javascript" src="js/components/scrollbar.min.js"></script>
-        <script type="text/javascript" src="js/components/magnific-popup.min.js"></script>
         <script type="text/javascript" src="js/components/swiper.min.js"></script>
         <script type="text/javascript" src="js/components/wow.min.js"></script>
         <!--========== END JAVASCRIPTS ==========-->

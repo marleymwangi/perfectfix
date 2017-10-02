@@ -14,7 +14,7 @@
         <!--========== END HEADER ==========-->
 
         <!--========== PROMO BLOCK ==========-->
-        <section class="s-video-v2__bg" data-vidbg-bg="poster: include/media/fallback.jpg" data-vidbg-options="loop: true, muted: true, overlay: false">
+        <section class="s-video-v2__bg" style="background: url(img/1920x1080/04.jpg) 50% 0 no-repeat fixed;">
             <div class="container g-position--overlay g-text-center--xs">
                 <div class="g-padding-y-50--xs g-margin-t-100--xs g-margin-b-100--xs g-margin-b-250--md">
                     <h1 class="g-font-size-36--xs g-font-size-50--sm g-font-size-60--md g-color--white">Subcribe to the package that</h1>
@@ -309,10 +309,6 @@
         <script type="text/javascript" src="vendor/jquery.smooth-scroll.min.js"></script>
         <script type="text/javascript" src="vendor/jquery.back-to-top.min.js"></script>
         <script type="text/javascript" src="vendor/scrollbar/jquery.scrollbar.min.js"></script>
-        <script type="text/javascript" src="vendor/vidbg.min.js"></script>
-        <script type="text/javascript" src="vendor/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
-        <script type="text/javascript" src="vendor/waypoint.min.js"></script>
-        <script type="text/javascript" src="vendor/counterup.min.js"></script>
         <script type="text/javascript" src="vendor/swiper/swiper.jquery.min.js"></script>
         <script type="text/javascript" src="vendor/jquery.wow.min.js"></script>
 
@@ -320,7 +316,6 @@
         <script type="text/javascript" src="js/global.min.js"></script>
         <script type="text/javascript" src="js/components/header-sticky.min.js"></script>
         <script type="text/javascript" src="js/components/scrollbar.min.js"></script>
-        <script type="text/javascript" src="js/components/portfolio-4-col-slider.min.js"></script>
         <script type="text/javascript" src="js/components/swiper.min.js"></script>
         <script type="text/javascript" src="js/components/wow.min.js"></script>
         <!--========== END JAVASCRIPTS ==========-->

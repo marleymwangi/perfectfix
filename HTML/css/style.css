@@ -152,6 +152,10 @@ a:focus {
   outline: none;
 }
 
+a.disabled {
+    pointer-events: none;
+}
+
 /*----------------------------------
   Selection
 ------------------------------------*/

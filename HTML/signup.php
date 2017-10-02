@@ -60,7 +60,7 @@
                             </i>
                     </div>
                     <div class="g-margin-b-30--xs">
-                            <input type="text" class="form-control s-form-v3__input g-font-weight--700" placeholder="* Phone" name="phone">
+                            <input type="text" class="form-control s-form-v3__input g-font-weight--700" placeholder="* 07XX XXX XXX" name="phone">
                     </div>
                     <div class="g-text-center--xs">
                         <button type="submit" class="text-uppercase s-btn s-btn--md s-btn--white-bg g-radius--50 g-padding-x-70--xs g-margin-b-20--xs g-font-weight--700" name="submit">Submit</button>

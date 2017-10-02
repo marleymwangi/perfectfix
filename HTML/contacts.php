@@ -26,7 +26,7 @@
                         <div class="g-text-center--xs">
                             <i class="g-display-block--xs g-font-size-40--xs g-color--white-opacity g-margin-b-30--xs ti-email"></i>
                             <h4 class="g-font-size-20--xs g-color--white g-margin-b-5--xs">Email</h4>
-                            <p class="g-color--white-opacity">support@perfectfit.com</p>
+                            <p class="g-color--white-opacity">info@perfectfit.com</p>
                         </div>
                     </div>
                     <div class="col-xs-4 g-full-width--xs g-margin-b-50--xs g-margin-b-0--sm">
@@ -44,20 +44,20 @@
                         </div>
                     </div>
                 </div>
-                <form class="center-block g-width-500--sm g-width-550--md">
+                <form class="center-block g-width-500--sm g-width-550--md" action="includes/contacts.inc.php" method="POST">
                     <div class="g-margin-b-30--xs">
-                        <input type="text" class="form-control s-form-v3__input" placeholder="* Name">
+                        <input type="text" class="form-control s-form-v3__input" placeholder="* Name" name="name">
                     </div>
                     <div class="row g-row-col-5 g-margin-b-50--xs">
                         <div class="col-sm-6 g-margin-b-30--xs g-margin-b-0--md">
-                            <input type="email" class="form-control s-form-v3__input" placeholder="* Email">
+                            <input type="email" class="form-control s-form-v3__input" placeholder="* Email" name="email">
                         </div>
                         <div class="col-sm-6">
-                            <input type="text" class="form-control s-form-v3__input" placeholder="* Phone">
+                            <input type="text" class="form-control s-form-v3__input" placeholder="* Phone" name="phoneNo">
                         </div>
                     </div>
                     <div class="g-margin-b-80--xs">
-                        <textarea class="form-control s-form-v3__input" rows="5" placeholder="* Your message"></textarea>
+                        <textarea class="form-control s-form-v3__input" rows="5" placeholder="* Your message" name="body"></textarea>
                     </div>
                     <div class="g-text-center--xs">
                         <button type="submit" class="text-uppercase s-btn s-btn--md s-btn--white-bg g-radius--50 g-padding-x-70--xs g-margin-b-20--xs">Submit</button>
@@ -130,6 +130,25 @@
         <!--========== JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) ==========-->
         <!-- Vendor -->
         <script type="text/javascript" src="vendor/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                if(window.location.href.indexOf("contacts=empty") > -1) {
+                   swal("Check Sign in Details", "One of the fields is empty", "error");;
+                }
+                if(window.location.href.indexOf("contacts=invalidname") > -1) {
+                   swal("Check First or Last", "Names cannot contain Special Characters", "error");;
+                }
+                if(window.location.href.indexOf("contacts=invalidemail") > -1) {
+                   swal("Check Email address", "You entered an Invald Email address", "error");
+                }
+                if(window.location.href.indexOf("ssignup=invalidphone") > -1) {
+                   swal("Check Phone Number", "Account exist with that Phone Number", "error");;
+                }
+                if(window.location.href.indexOf("contacts=successful") > -1) {
+                   swal("Transaction Complete", "Transaction is being processed. Might take a few minuites", "success");;
+                }
+            });
+        </script>
         <script type="text/javascript" src="vendor/jquery.migrate.min.js"></script>
         <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="vendor/jquery.smooth-scroll.min.js"></script>

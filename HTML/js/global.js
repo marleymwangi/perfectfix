@@ -10,19 +10,6 @@ var Global = function() {
       pause: 'hover'
     });
 
-    // Tooltips
-    $('.tooltips').tooltip();
-    $('.tooltips-show').tooltip('show');
-    $('.tooltips-hide').tooltip('hide');
-    $('.tooltips-toggle').tooltip('toggle');
-    $('.tooltips-destroy').tooltip('destroy');
-
-    // Popovers
-    $('.popovers').popover();
-    $('.popovers-show').popover('show');
-    $('.popovers-hide').popover('hide');
-    $('.popovers-toggle').popover('toggle');
-    $('.popovers-destroy').popover('destroy');
   }
 
   // Scroll To Section
@@ -43,14 +30,6 @@ var Global = function() {
     });
   }
 
-  // Handle Promo Section
-  var handlePromoSection = function() {
-    $('.js__fullwidth-img').each(function() {
-      $(this).css('background-image', 'url(' + $(this).children('img').attr('src') + ')');
-      $(this).children('img').hide();
-    });
-  }
-
   // Handle Overlay
   var handleOverlay = function() {
     var overlay = $('.js__bg-overlay'),
@@ -60,6 +39,9 @@ var Global = function() {
     var overlay = $('.js__bg-overlay'),
       headerOverlay = $('.js__header-overlay'),
       triggeruser = $('.js__trigger-user');
+
+      var button = $('.s-header__nav-menu-item');
+
 
     trigger.on('click', function() {
       if (!(overlay.hasClass('-is-open'))){
@@ -88,7 +70,7 @@ var Global = function() {
       }
 
       if (!(headerOverlay.hasClass('-is-open'))) {
-      headerOverlay.toggleClass('-is-open');
+        headerOverlay.toggleClass('-is-open');
       }
 
       if ((triggeruser.hasClass('-is-active'))){ 
@@ -159,7 +141,6 @@ var Global = function() {
     init: function() {
       handleBootstrapComponents(); // initial setup for Bootstrap Components
       handleScrollToSection(); // initial setup for Scroll To Section
-      handlePromoSection(); // initial setup for Promo Section
       handleOverlay(); // initial setup for Overlay
       handleVerticalCenterAligned(); // initial setup for Vertical Center Aligned
       handleEqualHeight(); // initial setup for Equal Height

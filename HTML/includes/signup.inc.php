@@ -11,6 +11,9 @@ if (isset($_POST['submit'])) {
 	$email = mysqli_real_escape_string($conn, $_POST['email']);
 	$phone = mysqli_real_escape_string($conn, $_POST['phone']);
 
+	$phone = str_replace("254","0",$phone);
+	$phone = str_replace("+","",$phone);
+
 	//Error handers
 	//check for empty fields
 	if (empty($firstName) || empty($lastName) || empty($userName) || empty($email) || empty($phone) || empty($passwrd) ) {

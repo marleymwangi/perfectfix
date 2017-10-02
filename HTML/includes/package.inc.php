@@ -21,6 +21,8 @@
 
 				$transcode = trim($transcode);
 				$mpesaImsi = trim($mpesaImsi);
+				$mpesaImsi = str_replace("254","0",$mpesaImsi);
+				$mpesaImsi = str_replace("+","",$mpesaImsi);
 				$transcode = strtoupper($transcode);
 
 				//retrieve user info from database
