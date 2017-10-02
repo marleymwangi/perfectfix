@@ -198,21 +198,20 @@
         <script type="text/javascript" src="vendor/jquery.min.js"></script>
         <script type="text/javascript">
                 if(window.location.href.indexOf("login=empty") > -1) {
-                   swal("Check Sign in Details", "One of the fields is empty", "error");;
+                   swal("Check Sign in Details", "One of the fields is empty", "error");
                 }
                 if(window.location.href.indexOf("login=Uerror") > -1) {
-                   swal("Check Sign in Details", "You entered the User Name", "error");;
+                   swal("Check Sign in Details", "You entered the User Name", "error");
                 }
                 if(window.location.href.indexOf("login=Perror") > -1) {
                    swal("Check Sign in Details", "You entered the Password", "error");
                 }
                 if(window.location.href.indexOf("login=success") > -1) {
-                   swal("Login Complete", "You were Logged in successfully", "success");;
+                   swal("Login successfull", "You were Logged in successfully", "success");
                 }
                 if(window.location.href.indexOf("login=notsignedinerror") > -1) {
-                   swal("Sorry", "You don't seem to be signed in", "info");;
+                   swal("Sorry", "You don't seem to be signed in", "info");
                 }
-            });
         </script>
         <script type="text/javascript" src="vendor/jquery.migrate.min.js"></script>
         <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>

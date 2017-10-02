@@ -34,21 +34,18 @@ if (isset($_POST['submit'])) {
 					$body = wordwrap($body,70);
 
 					// send email
-					mail("info@perfectfix.co",$name,$msg);
+					mail("info@perfectfix.co",$name.$phoneNo,$msg);
 
 					header("Location: ../contacts.php?contacts=successful");
 					exit();
 
 			}
 					
-				}
-
-			}
 		}
 
 	}
-	
-} else{
+
+}else{
 	header("Location: ../contacts.php");
 	exit();
 }
