@@ -53,7 +53,6 @@ var Global = function() {
 
   // Handle Overlay
   var handleOverlay = function() {
-    var opened = "bob";
     var overlay = $('.js__bg-overlay'),
       headerOverlay = $('.js__header-overlay'),
       trigger = $('.js__trigger');
