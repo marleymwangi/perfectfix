@@ -62,43 +62,44 @@ var Global = function() {
       triggeruser = $('.js__trigger-user');
 
     trigger.on('click', function() {
-      if ((overlay.hasClass('-is-open')) && ($('#menumain').hasClass('g-display-none--xs')) ) {
-        $('#menumain').removeClass('g-display-none--xs'); 
-        $('#menuuser').addClass('g-display-none--xs');
-        triggeruser.removeClass('-is-active');
-      } else {
+      if (!(overlay.hasClass('-is-open'))){
         overlay.toggleClass('-is-open');
       }
 
-      if ((headerOverlay.hasClass('-is-open')) && ($('#menuuser').hasClass('g-display-none--xs')) ) {
-        $('#menumain').removeClass('g-display-none--xs'); 
-        $('#menuuser').addClass('g-display-none--xs');
-      } else {
+      if (!(headerOverlay.hasClass('-is-open'))) {
         headerOverlay.toggleClass('-is-open');
+      }
+
+      if ((trigger.hasClass('-is-active'))){ 
+          overlay.toggleClass('-is-open');
+          headerOverlay.toggleClass('-is-open');
       }
 
       trigger.toggleClass('-is-active');
-      $('#menuuser').toggleClass('g-display-none--xs');
+      triggeruser.removeClass('-is-active');
+      $('#menumain').toggleClass('g-display-none--xs');
+      $('#menuuser').addClass('g-display-none--xs');
+
     });
 
       triggeruser.on('click', function() {
-      if ((overlay.hasClass('-is-open')) && ($('#menuuser').hasClass('g-display-none--xs')) ) {
-        $('#menuuser').removeClass('g-display-none--xs'); 
-        $('#menumain').addClass('g-display-none--xs');
-        trigger.removeClass('-is-active');
-      } else {
+      if (!(overlay.hasClass('-is-open'))){
         overlay.toggleClass('-is-open');
       }
 
-      if ((headerOverlay.hasClass('-is-open')) && ($('#menuuser').hasClass('g-display-none--xs')) ) {
-        $('#menuuser').removeClass('g-display-none--xs'); 
-        $('#menumain').addClass('g-display-none--xs');
-      } else {
-        headerOverlay.toggleClass('-is-open');
+      if (!(headerOverlay.hasClass('-is-open'))) {
+      headerOverlay.toggleClass('-is-open');
+      }
+
+      if ((triggeruser.hasClass('-is-active'))){ 
+          overlay.toggleClass('-is-open');
+          headerOverlay.toggleClass('-is-open');
       }
 
       triggeruser.toggleClass('-is-active');
-      $('#menumain').toggleClass('g-display-none--xs');
+      trigger.removeClass('-is-active');
+      $('#menumain').addClass('g-display-none--xs');
+      $('#menuuser').toggleClass('g-display-none--xs');
     });
 
   }
