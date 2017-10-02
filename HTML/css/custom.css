@@ -941,10 +941,6 @@ footer {
         margin-left: 0
     }
 }
-.tile-stats.sparkline {
-    padding: 10px;
-    text-align: center
-}
 .jqstooltip {
     background: #34495E !important;
     width: 30px !important;
@@ -1862,10 +1858,10 @@ h4.graph_title {
     -moz-osx-font-smoothing: grayscale
 }
 .tile-stats {
-box-shadow: 0px 15px 5px rgba(0,0,0,0.1),
-                 10px 20px 5px rgba(0,0,0,0.05),
-                 -10px 20px 5px rgba(0,0,0,0.05);
-text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+    box-shadow: 0px 15px 5px rgba(0,0,0,0.1),
+                     10px 20px 5px rgba(0,0,0,0.05),
+                     -10px 20px 5px rgba(0,0,0,0.05);
+    text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
 
     position: relative;
     display: block;
@@ -1973,9 +1969,22 @@ background-image: linear-gradient(-225deg, #A445B2 0%, #D41872 52%, #FF0066 100%
     color: #fff;
     background: rgba(0, 0, 0, 0.15)
 }
-table.tile_info {
-    padding: 10px 15px
+
+@media (max-width: 767px) {
+    .tile-stats .count {
+        font-size: 1.9rem;
+    }
+    .tile-stats h3 {
+    font-size: 2rem;
+    }
+    .tile-stats .icon i {
+    font-size: 2em;
+    left: 20px;
+    display: none;
+    }
+
 }
+
 table.tile_info span.right {
     margin-right: 0;
     float: right;
@@ -4194,6 +4203,7 @@ ul.notifications {
 
 .x_content {
     height: 80vh;
+    width: 100%;
     overflow-y: auto
 }
 

@@ -28,7 +28,7 @@
         <div class="col-md-3 left_col">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-              <a href="index.php"><img src="img/logo.png"></a>
+              <a href="index.html" class="site_title"><img src="img/logo.png"></a>
             </div>
 
             <div class="clearfix"></div>
@@ -81,13 +81,13 @@
             <div class="clearfix"></div>
 
             <div class="row">
-              <div class="col-md-12">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="">
                   <div class="x_content <?php if ($weekgames==0) {echo 'hidecontent';}  ?>">
                     <div class="row">
                       <div class="animated flipInY col-lg-5 col-md-5 col-sm-5 col-xs-5">
                         <div class="tile-stats <?php include 'includes/getgames.php'; if($homepred[0]>=$awaypred[0]) {echo('winner');}else{echo('loser');} ?>">
-                          <div class="icon"><i class="fa fa-futbol-o"></i></div>
+                          <div class="icon red"><i class="fa fa-futbol-o"></i></div>
                           <div class="count"><?php include 'includes/getgames.php'; echo $homepred[0] ?></div>
                           <h3><?php include 'includes/getgames.php'; echo $home[0] ?></h3>
                         </div>
