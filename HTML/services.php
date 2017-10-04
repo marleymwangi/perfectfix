@@ -33,7 +33,7 @@
                     <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Plan</p>
                     <h2 class="g-font-size-32--xs g-font-size-36--md">Finding your Plan</h2>
                     <br>
-                    <p class="text-uppercase g-font-size-8--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">To Pay. Send Money to 0720010700<br>Input the Transaction Code and Number in the spaces provided<br>click Buy</p>
+                    <p class="text-uppercase g-font-size-8--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">To Buy.<br>Send Money to 0720010700<br>Click Buy on your desired package<br>Input the Transaction Code and Number in the spaces provided<br>Click Done</p>
                 </div>
 
                 <div class="row g-row-col--5 g-padding-y-10--xs"  id="package" >
@@ -54,7 +54,7 @@
                                                 <span class="s-plan-v1__price-mark">Ksh.</span>
                                                 <span class="s-plan-v1__price-tag">150</span>
                                             </div>
-                                            <button type="button" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--50 g-padding-x-50--xs" onclick="flip()">Buy</button>
+                                            <button type="button" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--50 g-padding-x-50--xs" onclick="flip()">Done</button>
                                         </div>
                                     </div>
                                 </div>
@@ -77,7 +77,7 @@
                                                 </div>
                                                 <input type="hidden" name="subs" value="package1"/>
                                                 <div class="g-text-center--xs">
-                                                    <button type="submit" class="text-uppercase s-btn s-btn--xs s-btn--white-bg g-radius--50 g-font-weight--700" id="form-menu" name="submit">Buy</button>
+                                                    <button type="submit" class="text-uppercase s-btn s-btn--xs s-btn--white-bg g-radius--50 g-font-weight--700" id="form-menu" name="submit">Done</button>
                                                 </div>
                                             </form>
                                             </div>
@@ -106,7 +106,7 @@
                                                 <span class="s-plan-v1__price-mark">Ksh.</span>
                                                 <span class="s-plan-v1__price-tag">100</span>
                                             </div>
-                                            <button type="button" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--50 g-padding-x-50--xs" onclick="flip2()">Buy</button>
+                                            <button type="button" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--50 g-padding-x-50--xs" onclick="flip2()">Done</button>
                                         </div>
                                     </div>
                                 </div>
@@ -159,7 +159,7 @@
                                                 <span class="s-plan-v1__price-mark">Ksh.</span>
                                                 <span class="s-plan-v1__price-tag">100</span>
                                             </div>
-                                            <button type="button" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--50 g-padding-x-50--xs" onclick="flip3()">Buy</button>
+                                            <button type="button" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--50 g-padding-x-50--xs" onclick="flip3()">Done</button>
                                         </div>
                                     </div>
                                 </div>
@@ -182,7 +182,7 @@
                                                 </div>
                                                 <input type="hidden" name="subs" value="package3"/>
                                                 <div class="g-text-center--xs">
-                                                    <button type="submit" class="text-uppercase s-btn s-btn--xs s-btn--white-bg g-radius--50 g-font-weight--700" id="form-menu" name="submit">Buy</button>
+                                                    <button type="submit" class="text-uppercase s-btn s-btn--xs s-btn--white-bg g-radius--50 g-font-weight--700" id="form-menu" name="submit">Done</button>
                                                 </div>
                                             </form>
                                             </div>
