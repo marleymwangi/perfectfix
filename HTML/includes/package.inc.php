@@ -43,7 +43,6 @@
 					$result = mysqli_query ($conn, $sql);
 
 					if ($result==true) {
-						echo '<script>swal("Transaction Complete", "Transaction is being processed. Might take a few minuites", "success");</script>';
 						header("Location: ../services.php?trans=successful");
 						exit();
 					}

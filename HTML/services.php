@@ -289,7 +289,8 @@
         </script>
 
 
-
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script type="text/javascript" src="vendor/jquery.min.js"></script>
         <script type="text/javascript">
             $(document).ready(function () {
                 if(window.location.href.indexOf("field=empty") > -1) {
@@ -298,6 +299,10 @@
                 if(window.location.href.indexOf("signup=success") > -1) {
                    swal("signup Complete", "Your Account has been created", "success");;
                 }
+                if(window.location.href.indexOf("trans=successful") > -1) {
+                   swal("Transaction successful", "This Might take a few minutes to process", "success");;
+                }
+
             });
         </script>
         <script type="text/javascript" src="vendor/jquery.migrate.min.js"></script>
