@@ -29,8 +29,17 @@
 				$sql = "INSERT INTO pendingtrans ( userId, phoneNo, transcode ) VALUES ('$userId','$phoneNo', '$transcode');";
 				$result = mysqli_query ($conn, $sql);
 
-				$sql = "INSERT INTO pendingsubs ( userId, subs) VALUES ('$userId','$subs');";
-				$result1 = mysqli_query ($conn, $sql);
+				//check if user is in subs table
+				$sql = "SELECT * FROM subs WHERE userId = '$userId'; AND subs = '$subs' ";
+				$result = mysqli_query ($conn, $sql);
+				$resultcheck = mysqli_num_rows ($result);
+
+				if ($resultcheck < 1) {
+
+					$sql = "INSERT INTO pendingsubs ( userId, subs) VALUES ('$userId','$subs');";
+					$result = mysqli_query ($conn, $sql);
+
+				}
 
 				//check if user is in subs table
 				$sql = "SELECT * FROM subs WHERE userId = '$userId';";
