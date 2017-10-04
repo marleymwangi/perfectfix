@@ -24,13 +24,14 @@
 				$phoneNo = str_replace("254","0",$phoneNo);
 				$phoneNo = str_replace("+","",$phoneNo);
 				$transcode = strtoupper($transcode);
+				echo $transcode.$phoneNo.$subs;
 
 				//insert pending subs and pending mpesa transaction to their tables
 				$sql = "INSERT INTO pendingtrans ( userId, phoneNo, transcode ) VALUES ('$userId','$phoneNo', '$transcode');";
 				$result = mysqli_query ($conn, $sql);
 
 				//check if user is in subs table
-				$sql = "SELECT * FROM subs WHERE userId = '$userId'; AND subs = '$subs' ";
+				$sql = "SELECT * FROM subs WHERE (userId = '$userId'; AND subs = '$subs')";
 				$result = mysqli_query ($conn, $sql);
 				$resultcheck = mysqli_num_rows ($result);
 
@@ -51,13 +52,13 @@
 					$sql = "INSERT INTO subs ( userId) VALUES ('$userId');";
 					$result = mysqli_query ($conn, $sql);
 
-					if ($result==true) {
+					/*if ($result==true) {
 						header("Location: ../services.php?trans=successful");
 						exit();
-					}
+					}*/
 				} else {
-						header("Location: ../services.php?trans=successful");
-						exit();
+						/*header("Location: ../services.php?trans=successful");
+						exit();*/
 				}
 			}
             
