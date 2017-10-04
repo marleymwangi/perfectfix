@@ -7,12 +7,12 @@
         	include_once 'dbh.inc.php';
         	$userId = $_SESSION['userId'];
 
-			$mpesaImsi = mysqli_real_escape_string($conn, $_POST['mpesaImsi']);
+			$phoneNo = mysqli_real_escape_string($conn, $_POST['phoneNo']);
 			$transcode = mysqli_real_escape_string($conn, $_POST['transcode']);
 			$subs = mysqli_real_escape_string($conn, $_POST['subs']);
 
 
-			if (empty($mpesaImsi) || empty($transcode)) {
+			if (empty($phoneNo) || empty($transcode)) {
 				header("Location: ../services.php?field=empty");
 				exit();
 
@@ -20,13 +20,13 @@
 				//hash mpesa transaction code
 
 				$transcode = trim($transcode);
-				$mpesaImsi = trim($mpesaImsi);
-				$mpesaImsi = str_replace("254","0",$mpesaImsi);
-				$mpesaImsi = str_replace("+","",$mpesaImsi);
+				$phoneNo = trim($phoneNo);
+				$phoneNo = str_replace("254","0",$phoneNo);
+				$phoneNo = str_replace("+","",$phoneNo);
 				$transcode = strtoupper($transcode);
 
 				//insert pending subs and pending mpesa transaction to their tables
-				$sql = "INSERT INTO mpesatransactions ( userId, mpesaImsi, transcode ) VALUES ('$userId','$mpesaImsi', '$transcode');";
+				$sql = "INSERT INTO pendingtrans ( userId, phoneNo, transcode ) VALUES ('$userId','$phoneNo', '$transcode');";
 				$result = mysqli_query ($conn, $sql);
 
 				$sql = "INSERT INTO pendingsubs ( userId, subs) VALUES ('$userId','$subs');";
@@ -43,34 +43,24 @@
 					$result = mysqli_query ($conn, $sql);
 
 					if ($result==true) {
+						echo '<script>swal("Transaction Complete", "Transaction is being processed. Might take a few minuites", "success");</script>';
 						header("Location: ../services.php?trans=successful");
 						exit();
 					}
 				} else {
-
-					if ($result1==true) {
 						header("Location: ../services.php?trans=successful");
 						exit();
-					}
 				}
-
-
-				
-				
-
 			}
             
         } else{
 
             header("Location: ../index.php?login=notsignedinerror");
-			
         }
+			
     }else{
     	header("Location: ../index.php");
     	exit();
     }
-
-
-
 
      ?>

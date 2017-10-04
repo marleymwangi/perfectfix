@@ -70,7 +70,7 @@
                                             <div class="g-display-inline-block--xs">
                                             <form class="input-group"  action="includes/package.inc.php" method="POST">                                      
         
-                                                    <input type="text" class="form-control s-form-v1__input g-radius--left-50 g-radius--right-50 text-uppercase" id="form-menu"  placeholder="*Phone Number" name="mpesaImsi">
+                                                    <input type="text" class="form-control s-form-v1__input g-radius--left-50 g-radius--right-50 text-uppercase" id="form-menu"  placeholder="*Phone Number" name="phoneNo">
                                                 
                                                 <div class="g-text-center--xs g-margin-b-5--xs">
                                                     <input type="text" class="form-control s-form-v1__input g-radius--left-50 g-radius--right-50 text-uppercase" id="form-menu" placeholder="Trans Code" name="transcode">
@@ -122,7 +122,7 @@
                                             <div class="g-display-inline-block--xs">
                                             <form class="input-group"  action="includes/package.inc.php" method="POST">                                      
         
-                                                    <input type="text" class="form-control s-form-v1__input g-radius--left-50 g-radius--right-50 text-uppercase" id="form-menu"  placeholder="*Phone Number" name="mpesaImsi">
+                                                    <input type="text" class="form-control s-form-v1__input g-radius--left-50 g-radius--right-50 text-uppercase" id="form-menu"  placeholder="*Phone Number" name="phoneNo">
                                                 
                                                 <div class="g-text-center--xs g-margin-b-5--xs">
                                                     <input type="text" class="form-control s-form-v1__input g-radius--left-50 g-radius--right-50 text-uppercase" id="form-menu" placeholder="Trans Code" name="transcode">
@@ -175,7 +175,7 @@
                                             <div class="g-display-inline-block--xs">
                                             <form class="input-group"  action="includes/package.inc.php" method="POST">                                      
         
-                                                    <input type="text" class="form-control s-form-v1__input g-radius--left-50 g-radius--right-50 text-uppercase" id="form-menu"  placeholder="*Phone Number" name="mpesaImsi">
+                                                    <input type="text" class="form-control s-form-v1__input g-radius--left-50 g-radius--right-50 text-uppercase" id="form-menu"  placeholder="*Phone Number" name="phoneNo">
                                                 
                                                 <div class="g-text-center--xs g-margin-b-5--xs">
                                                     <input type="text" class="form-control s-form-v1__input g-radius--left-50 g-radius--right-50 text-uppercase" id="form-menu" placeholder="Trans Code" name="transcode">
@@ -227,7 +227,7 @@
                                             <div class="g-display-inline-block--xs">
                                             <form class="input-group"  action="includes/package.inc.php" method="POST">                                      
         
-                                                    <input type="text" class="form-control s-form-v1__input g-radius--left-50 g-radius--right-50 text-uppercase" id="form-menu"  placeholder="*Phone Number" name="mpesaImsi">
+                                                    <input type="text" class="form-control s-form-v1__input g-radius--left-50 g-radius--right-50 text-uppercase" id="form-menu"  placeholder="*Phone Number" name="phoneNo">
                                                 
                                                 <div class="g-text-center--xs g-margin-b-5--xs">
                                                     <input type="text" class="form-control s-form-v1__input g-radius--left-50 g-radius--right-50 text-uppercase" id="form-menu" placeholder="Trans Code" name="transcode">
@@ -288,16 +288,12 @@
             }
         </script>
 
-        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-        <script type="text/javascript" src="vendor/jquery.min.js"></script>
+
 
         <script type="text/javascript">
             $(document).ready(function () {
                 if(window.location.href.indexOf("field=empty") > -1) {
                    swal("Check Transaction Details", "One of the fields is empty", "error");;
-                }
-                if(window.location.href.indexOf("trans=successful") > -1) {
-                   swal("Transaction Complete", "Transaction is being processed. Might take a few minuites", "success");;
                 }
                 if(window.location.href.indexOf("signup=success") > -1) {
                    swal("signup Complete", "Your Account has been created", "success");;
