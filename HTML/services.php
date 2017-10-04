@@ -302,7 +302,6 @@
                 if(window.location.href.indexOf("trans=successful") > -1) {
                    swal("Transaction successful", "This Might take a few minutes to process", "success");;
                 }
-
             });
         </script>
         <script type="text/javascript" src="vendor/jquery.migrate.min.js"></script>

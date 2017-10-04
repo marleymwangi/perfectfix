@@ -33,7 +33,7 @@
                         <div class="g-text-center--xs">
                             <i class="g-display-block--xs g-font-size-40--xs g-color--white-opacity g-margin-b-30--xs ti-headphone-alt"></i>
                             <h4 class="g-font-size-20--xs g-color--white g-margin-b-5--xs">Call at</h4>
-                            <p class="g-color--white-opacity">+ (254) 722 002 002 </p>
+                            <p class="g-color--white-opacity">+ (254) 700  473 319</p>
                         </div>
                     </div>
                 </div>
