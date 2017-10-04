@@ -29,7 +29,7 @@
 				$sql = "INSERT INTO mpesatransactions ( userId, mpesaImsi, transcode ) VALUES ('$userId','$mpesaImsi', '$transcode');";
 				$result = mysqli_query ($conn, $sql);
 
-				$sql = "INSERT INTO pendingSubs ( userId, subs) VALUES ('$userId','$subs');";
+				$sql = "INSERT INTO pendingsubs ( userId, subs) VALUES ('$userId','$subs');";
 				$result1 = mysqli_query ($conn, $sql);
 
 				//check if user is in subs table
@@ -47,7 +47,7 @@
 						exit();
 					}
 				} else {
-					
+
 					if ($result1==true) {
 						header("Location: ../services.php?trans=successful");
 						exit();
