@@ -15,6 +15,7 @@ if (isset($_POST['submit'])) {
 	if (empty($userName) || empty($passwrd)) {
 		
 		header("Location: ../index.php?login=empty");
+		echo 'swal("Check Sign in Details", "One of the fields is empty", "error");';
 		exit();
 
 	} else {

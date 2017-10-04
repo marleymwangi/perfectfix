@@ -25,20 +25,37 @@
 				$mpesaImsi = str_replace("+","",$mpesaImsi);
 				$transcode = strtoupper($transcode);
 
-				//retrieve user info from database
+				//insert pending subs and pending mpesa transaction to their tables
 				$sql = "INSERT INTO mpesatransactions ( userId, mpesaImsi, transcode ) VALUES ('$userId','$mpesaImsi', '$transcode');";
 				$result = mysqli_query ($conn, $sql);
 
 				$sql = "INSERT INTO pendingSubs ( userId, subs) VALUES ('$userId','$subs');";
-				$result = mysqli_query ($conn, $sql);
-				
-				$sql = "INSERT INTO subs ( userId) VALUES ('$userId');";
-				$result = mysqli_query ($conn, $sql);
+				$result1 = mysqli_query ($conn, $sql);
 
-				if ($result==true) {
-					header("Location: ../services.php?trans=successful");
-					exit();
+				//check if user is in subs table
+				$sql = "SELECT * FROM subs WHERE userId = '$userId';";
+				$result = mysqli_query ($conn, $sql);
+				$resultcheck = mysqli_num_rows ($result);
+
+				if ($resultcheck < 1) {
+
+					$sql = "INSERT INTO subs ( userId) VALUES ('$userId');";
+					$result = mysqli_query ($conn, $sql);
+
+					if ($result==true) {
+						header("Location: ../services.php?trans=successful");
+						exit();
+					}
+				} else {
+					
+					if ($result1==true) {
+						header("Location: ../services.php?trans=successful");
+						exit();
+					}
 				}
+
+
+				
 				
 
 			}
