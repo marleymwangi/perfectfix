@@ -1,5 +1,5 @@
 <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index.php">Welcome <?php echo $_SESSION['userName'] ?></a></li>
-<li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider <?php if ($page=='predictions') {echo'-is-active'; }?>" href="weekgames.php">Predictions</a></li>
+<li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider <?php if ($page=='predictions') {echo'-is-active'; }?>" href="<?php include ('includes/checksubs.php'); if ($weekgames==1) {echo 'weekgames.php';} else if ($thirteenj==1) {echo '13jackpot.php';} else if ($fifteenj==1) {echo '15jackpot.php';} else if ($seventeenj==1) {echo '17jackpot.php';} ?>">Predictions</a></li>
 
 <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index.php">My Account</a></li>
 
