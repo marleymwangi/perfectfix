@@ -28,6 +28,7 @@
 				//insert pending subs and pending mpesa transaction to their tables
 				$sql = "INSERT INTO pendingtrans ( userId, phoneNo, transcode ) VALUES ('$userId','$phoneNo', '$transcode');";
 				$result = mysqli_query ($conn, $sql);
+				echo $result;
 
 				//check if user is in subs table
 				$sql = "SELECT * FROM pendingsubs WHERE (userId = '$userId' AND subs = '$subs')";
@@ -52,12 +53,12 @@
 					$result = mysqli_query ($conn, $sql);
 
 					if ($result==true) {
-						header("Location: ../services.php?trans=successful");
-						exit();
+						/*header("Location: ../services.php?trans=successful");
+						exit();*/
 					}
 				} else {
-						header("Location: ../services.php?trans=successful");
-						exit();
+						/*header("Location: ../services.php?trans=successful");
+						exit();*/
 				}
 			}
             
