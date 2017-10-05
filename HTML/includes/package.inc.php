@@ -53,12 +53,12 @@
 					$result = mysqli_query ($conn, $sql);
 
 					if ($result==true) {
-						/*header("Location: ../services.php?trans=successful");
-						exit();*/
+						header("Location: ../services.php?trans=successful");
+						exit();
 					}
 				} else {
-						/*header("Location: ../services.php?trans=successful");
-						exit();*/
+						header("Location: ../services.php?trans=successful");
+						exit();
 				}
 			}
             
