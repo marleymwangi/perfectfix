@@ -31,7 +31,7 @@
 				$result = mysqli_query ($conn, $sql);
 
 				//check if user is in subs table
-				$sql = "SELECT * FROM subs WHERE (userId = '$userId'; AND subs = '$subs')";
+				$sql = "SELECT * FROM pendingsubs WHERE (userId = '$userId' AND subs = '$subs')";
 				$result = mysqli_query ($conn, $sql);
 				$resultcheck = mysqli_num_rows ($result);
 
