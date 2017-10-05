@@ -19,8 +19,9 @@ if($emails) {
                 /* output the email body */
                 $messages[] = $message;
                 $words = explode(" ", $message);
-                $transdetails[]=array($words[0],filter_var($words[7],FILTER_SANITIZE_NUMBER_INT),ltrim($words[4], 'Ksh'));
+                $transdetails[]=array($words[0],filter_var($words[8],FILTER_SANITIZE_NUMBER_INT),ltrim($words[4], 'Ksh'));
 
+                
 
                 /* change the status */
                 /* change the status */
