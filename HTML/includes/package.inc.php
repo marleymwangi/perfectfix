@@ -28,11 +28,6 @@
 				//insert pending subs and pending mpesa transaction to their tables
 				$sql = "INSERT INTO pendingtrans (userId, phoneNo, transcode ) VALUES ('$userId','$phoneNo','$transcode');";
 				$result = mysqli_query ($conn, $sql);
-				
-				if (!mysqli_query($conn,$sql))
-				  {
-				  echo("Error description: " . mysqli_error($conn));
-				  }
 
 				//check if user is in subs table
 				$sql = "SELECT * FROM pendingsubs WHERE (userId = '$userId' AND subs = '$subs')";
