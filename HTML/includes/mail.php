@@ -4,6 +4,13 @@ $inbox = imap_open('{imappro.zoho.com:993/imap/ssl/novalidate-cert} /Inbox','tra
 /* grab emails */
 $emails = imap_search($inbox,'UNSEEN');
 /* if emails are returned, cycle through each... */
+
+function startsWith($haystack, $needle)
+{
+     $length = strlen($needle);
+     return (substr($haystack, 0, $length) === $needle);
+}
+
 if($emails) {                
         /* put the newest emails on top */
         rsort($emails);        
@@ -19,7 +26,17 @@ if($emails) {
                 /* output the email body */
                 $messages[] = $message;
                 $words = explode(" ", $message);
-                $transdetails[]=array($words[0],filter_var($words[9],FILTER_SANITIZE_NUMBER_INT),ltrim($words[4], 'Ksh'));
+                $needle = "";
+
+                foreach ($words as $word) {
+                        $findme   = "07";
+                        $pos = startsWith($word,$findme);
+                        if ($pos === true) {
+                                $needle = $word;
+                        }
+                }
+
+                $transdetails[]=array($words[0],$needle,ltrim($words[4], 'Ksh'));
 
                 
 
@@ -41,8 +58,6 @@ foreach ($transdetails as $details) {
         $sql = "SELECT * FROM confirmation WHERE transcode = '$conCode';";
         $result = mysqli_query ($conn, $sql);
         $resultcheck = mysqli_num_rows ($result);
-
-        echo $conCode.$amount.$phoneNo;
 
         if ($resultcheck < 1) {
                 $sql = "INSERT INTO confirmation (transcode, phoneNo, amount) VALUES ('$conCode', '$phoneNo', '$amount');";
