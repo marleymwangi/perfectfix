@@ -2,7 +2,7 @@
 
 include_once 'dbh.inc.php';
 
-$sql = "SELECT * FROM 13games;";
+$sql = "SELECT * FROM 17games;";
 $result = mysqli_query($conn,$sql);
 $resultCheck = mysqli_num_rows($result);
 

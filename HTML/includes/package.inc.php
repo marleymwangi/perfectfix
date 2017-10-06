@@ -25,9 +25,17 @@
 				$phoneNo = str_replace("+","",$phoneNo);
 				$transcode = strtoupper($transcode);
 
-				//insert pending subs and pending mpesa transaction to their tables
-				$sql = "INSERT INTO pendingtrans (userId, phoneNo, transcode ) VALUES ('$userId','$phoneNo','$transcode');";
+				$sql = "SELECT * FROM pendingtrans WHERE (transcode = '$transcode' AND phoneNo = '$phoneNo')";
 				$result = mysqli_query ($conn, $sql);
+				$resultcheck = mysqli_num_rows ($result);
+
+				if ($resultcheck < 1) {
+
+					//insert pending trans mpesa transaction to their tables
+					$sql = "INSERT INTO pendingtrans (userId, phoneNo, transcode ) VALUES ('$userId','$phoneNo','$transcode');";
+					$result = mysqli_query ($conn, $sql);
+
+				}
 
 				//check if user is in subs table
 				$sql = "SELECT * FROM pendingsubs WHERE (userId = '$userId' AND subs = '$subs')";
