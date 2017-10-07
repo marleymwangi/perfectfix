@@ -93,7 +93,7 @@
                         </div>
                       </div>
                       <div class="animated flipInY col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                        <div class="tile-stats <?php include 'includes/getgames.php'; if($drawpred[0]>=$homepred[0] && $drawpred[0]>=$awaypred[0]) {echo('winner');}elseif($homepred[0]>=$awaypred[0]) {echo('midleft');}else{echo('midright');} ?>">
+                        <div class="tile-stats <?php include 'includes/getgames.php'; if($drawpred[0]>=$homepred[0] && $drawpred[0]>=$awaypred[0]) {echo('winner');}else{echo('mid');} ?>">
                           <div class="icon"><i class="fa fa-balance-scale"></i>
                           </div>
                           <div class="count"><?php include 'includes/getgames.php'; echo $drawpred[0] ?></div>
@@ -101,7 +101,7 @@
                         </div>
                       </div>
                       <div class="animated flipInY col-lg-5 col-md-5 col-sm-5 col-xs-5">
-                        <div class="tile-stats <?php include 'includes/getgames.php'; if($awaypred[0]>=$homepred[0]) {echo('winner');}else{echo('loserright');} ?>">
+                        <div class="tile-stats <?php include 'includes/getgames.php'; if($awaypred[0]>=$homepred[0]) {echo('winner');}else{echo('loser');} ?>">
                           <div class="icon"><i class="fa fa-futbol-o"></i>
                           </div>
                           <div class="count"><?php include 'includes/getgames.php'; echo $awaypred[0] ?></div>
@@ -119,7 +119,7 @@
                         </div>
                       </div>
                       <div class="animated flipInY col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                        <div class="tile-stats <?php include 'includes/getgames.php'; if($drawpred[1]>=$homepred[1] && $drawpred[1]>=$awaypred[1]) {echo('winner');}elseif($homepred[1]>=$awaypred[1]) {echo('midleft');}else{echo('midright');} ?>">
+                        <div class="tile-stats <?php include 'includes/getgames.php'; if($drawpred[1]>=$homepred[1] && $drawpred[1]>=$awaypred[1]) {echo('winner');}else{echo('mid');} ?>">
                           <div class="icon"><i class="fa fa-balance-scale"></i>
                           </div>
                           <div class="count"><?php include 'includes/getgames.php'; echo $drawpred[1] ?></div>
@@ -127,7 +127,7 @@
                         </div>
                       </div>
                       <div class="animated flipInY col-lg-5 col-md-5 col-sm-5 col-xs-5">
-                        <div class="tile-stats <?php include 'includes/getgames.php'; if($awaypred[1]>=$homepred[1]) {echo('winner');}else{echo('loserright');} ?>">
+                        <div class="tile-stats <?php include 'includes/getgames.php'; if($awaypred[1]>=$homepred[1]) {echo('winner');}else{echo('loser');} ?>">
                           <div class="icon"><i class="fa fa-futbol-o"></i>
                           </div>
                           <div class="count"><?php include 'includes/getgames.php'; echo $awaypred[1] ?></div>
@@ -145,7 +145,7 @@
                         </div>
                       </div>
                       <div class="animated flipInY col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                        <div class="tile-stats <?php include 'includes/getgames.php'; if($drawpred[2]>=$homepred[2] && $drawpred[2]>=$awaypred[2]) {echo('winner');}elseif($homepred[2]>=$awaypred[2]) {echo('midleft');}else{echo('midright');} ?>">
+                        <div class="tile-stats <?php include 'includes/getgames.php'; if($drawpred[2]>=$homepred[2] && $drawpred[2]>=$awaypred[2]) {echo('winner');}else{echo('mid');} ?>">
                           <div class="icon"><i class="fa fa-balance-scale"></i>
                           </div>
                           <div class="count"><?php include 'includes/getgames.php'; echo $drawpred[2] ?></div>
@@ -153,7 +153,7 @@
                         </div>
                       </div>
                       <div class="animated flipInY col-lg-5 col-md-5 col-sm-5 col-xs-5">
-                        <div class="tile-stats <?php include 'includes/getgames.php'; if($awaypred[2]>=$homepred[2]) {echo('winner');}else{echo('loserright');} ?>">
+                        <div class="tile-stats <?php include 'includes/getgames.php'; if($awaypred[2]>=$homepred[2]) {echo('winner');}else{echo('loser');} ?>">
                           <div class="icon"><i class="fa fa-futbol-o"></i>
                           </div>
                           <div class="count"><?php include 'includes/getgames.php'; echo $awaypred[2] ?></div>
@@ -171,7 +171,7 @@
                         </div>
                       </div>
                       <div class="animated flipInY col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                        <div class="tile-stats <?php include 'includes/getgames.php'; if($drawpred[3]>=$homepred[3] && $drawpred[3]>=$awaypred[3]) {echo('winner');}elseif($homepred[0]>=$awaypred[3]) {echo('midleft');}else{echo('midright');} ?>">
+                        <div class="tile-stats <?php include 'includes/getgames.php'; if($drawpred[3]>=$homepred[3] && $drawpred[3]>=$awaypred[3]) {echo('winner');}else{echo('mid');} ?>">
                           <div class="icon"><i class="fa fa-balance-scale"></i>
                           </div>
                           <div class="count"><?php include 'includes/getgames.php'; echo $drawpred[3] ?></div>
@@ -179,7 +179,7 @@
                         </div>
                       </div>
                       <div class="animated flipInY col-lg-5 col-md-5 col-sm-5 col-xs-5">
-                        <div class="tile-stats <?php include 'includes/getgames.php'; if($awaypred[3]>=$homepred[3]) {echo('winner');}else{echo('loserright');} ?>">
+                        <div class="tile-stats <?php include 'includes/getgames.php'; if($awaypred[3]>=$homepred[3]) {echo('winner');}else{echo('loser');} ?>">
                           <div class="icon"><i class="fa fa-futbol-o"></i>
                           </div>
                           <div class="count"><?php include 'includes/getgames.php'; echo $awaypred[3] ?></div>
@@ -197,7 +197,7 @@
                         </div>
                       </div>
                       <div class="animated flipInY col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                        <div class="tile-stats <?php include 'includes/getgames.php'; if($drawpred[4]>=$homepred[4] && $drawpred[4]>=$awaypred[4]) {echo('winner');}elseif($homepred[0]>=$awaypred[4]) {echo('midleft');}else{echo('midright');} ?>">
+                        <div class="tile-stats <?php include 'includes/getgames.php'; if($drawpred[4]>=$homepred[4] && $drawpred[4]>=$awaypred[4]) {echo('winner');}else{echo('mid');} ?>">
                           <div class="icon"><i class="fa fa-balance-scale"></i>
                           </div>
                           <div class="count"><?php include 'includes/getgames.php'; echo $drawpred[4] ?></div>
@@ -205,7 +205,7 @@
                         </div>
                       </div>
                       <div class="animated flipInY col-lg-5 col-md-5 col-sm-5 col-xs-5">
-                        <div class="tile-stats <?php include 'includes/getgames.php'; if($awaypred[4]>=$homepred[4]) {echo('winner');}else{echo('loserright');} ?>">
+                        <div class="tile-stats <?php include 'includes/getgames.php'; if($awaypred[4]>=$homepred[4]) {echo('winner');}else{echo('loser');} ?>">
                           <div class="icon"><i class="fa fa-futbol-o"></i>
                           </div>
                           <div class="count"><?php include 'includes/getgames.php'; echo $awaypred[4] ?></div>
