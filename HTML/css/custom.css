@@ -1895,7 +1895,7 @@ background-image: linear-gradient(-225deg, #FF0066 0%, #D41872 52%, #A445B2 100%
 }
 
 .midleft{
-background-image: linear-gradient(-225deg, #FF0080 0%, #FF8C00 40%, #40E0D0 100%);
+background-image: linear-gradient(225deg, #FF0080 0%, #FF8C00 40%, #40E0D0 100%);
 }
 
 .midright{
