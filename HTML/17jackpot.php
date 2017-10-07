@@ -96,7 +96,7 @@
                         </div>
                       </div>
                       <div class="animated flipInY col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                        <div class="tile-stats <?php include 'includes/getgames.php'; if($drawpred[0]>=$homepred[0] && $drawpred[0]>=$awaypred[0]) {echo('winner');}elseif($homepred[0]>=$awaypred[0]) {echo('midleft');}else{echo('midright');} ?>">
+                        <div class="tile-stats <?php include 'includes/getgames.php'; if($drawpred[0]>=$homepred[0] && $drawpred[0]>=$awaypred[0]) {echo('winner');?>">
                           <div class="icon"><i class="fa fa-balance-scale"></i>
                           </div>
                           <div class="count"><?php include 'includes/get17games.php'; echo $drawpred[0] ?></div>
