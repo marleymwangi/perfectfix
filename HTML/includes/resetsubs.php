@@ -1,3 +1,4 @@
+#!/usr/bin/php -q
 <?php  
 
 include_once 'dbh.inc.php';
