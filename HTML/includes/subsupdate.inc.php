@@ -11,6 +11,10 @@ if ($result->num_rows > 0) {
     	$confirmed = false;
         $userId = $row['userId'];
         $subs = $row['subs'];
+        $cost = 100;
+        if ($subs=="package1") {
+        	$cost=150;
+        }
 
         $sql = "SELECT * FROM users WHERE userId = '$userId' ;";
 		$result2 = mysqli_query($conn,$sql);
@@ -19,10 +23,10 @@ if ($result->num_rows > 0) {
 			$amount = $row2['amount'];
 
 			//check if account has enough funds
-			if ($amount >= 100.00) {
+			if ($amount >= $cost) {
 				$confirmed = true;
 				//deduct 100 from account
-				$amount = ($amount - 100.00);
+				$amount = ($amount - cost);
 
 				$sql = "UPDATE users SET amount = '$amount' WHERE userId = '$userId' ;";
 				mysqli_query($conn,$sql);
