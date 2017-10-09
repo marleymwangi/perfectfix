@@ -66,7 +66,7 @@
           <div class="">
             <div class="page-title">
               <div class="title_left">
-                <h3>13 Games Jackpots</h3>
+                <h3>13 Games BETWAY Jackpots</h3>
               </div>
 
               <div class="title_right">
