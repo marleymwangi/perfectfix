@@ -26,7 +26,7 @@ if ($result->num_rows > 0) {
 			if ($amount >= $cost) {
 				$confirmed = true;
 				//deduct 100 from account
-				$amount = ($amount - cost);
+				$amount = ($amount - $cost);
 
 				$sql = "UPDATE users SET amount = '$amount' WHERE userId = '$userId' ;";
 				mysqli_query($conn,$sql);
