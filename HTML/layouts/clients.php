@@ -5,7 +5,7 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".1s">
-                                <a href=""><img class="s-clients-v1" src="img/clients/01-dark.png" alt="Clients Logo"></a>
+                                <a href="http://instagram.com/_u/{_PerfectFix_}/"><img class="s-clients-v1" src="img/clients/01-dark.png" alt="Clients Logo"></a>
                             </div>
                         </div>
                         <div class="swiper-slide">
