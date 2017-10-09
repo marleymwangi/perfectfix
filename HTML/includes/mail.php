@@ -33,10 +33,13 @@ if($emails) {
                         $pos = startsWith($word,$findme);
                         if ($pos === true) {
                                 $needle = $word;
+                                echo "phone number found";
+                                $needle1 = 500;
                         }
+                        
                 }
 
-                $transdetails[]=array($words[0],$needle,ltrim($words[4], 'Ksh'));
+                $transdetails[]=array($words[0],$needle,ltrim($needle1, 'Ksh'));
 
                 
 
@@ -58,6 +61,8 @@ foreach ($transdetails as $details) {
         $sql = "SELECT * FROM confirmation WHERE transcode = '$conCode';";
         $result = mysqli_query ($conn, $sql);
         $resultcheck = mysqli_num_rows ($result);
+
+        echo $conCode.$phoneNo.$amount;
 
         if ($resultcheck < 1) {
                 $sql = "INSERT INTO confirmation (transcode, phoneNo, amount) VALUES ('$conCode', '$phoneNo', '$amount');";
