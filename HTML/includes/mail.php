@@ -33,17 +33,18 @@ if($emails) {
                         $pos = startsWith($word,$findme);
                         if ($pos === true) {
                                 $needle = $word;
-                                echo "phone number found";
-                                $needle1 = 500;
+                        }
+
+                        $findme   = "Ksh";
+                        $pos = startsWith($word,$findme);
+                        if ($pos === true) {
+                                $needle1[] = $word;
                         }
                         
                 }
 
-                $transdetails[]=array($words[0],$needle,ltrim($needle1, 'Ksh'));
+                $transdetails[]=array($words[0],$needle,ltrim($needle1[0], 'Ksh'));
 
-                
-
-                /* change the status */
                 /* change the status */
                 $status = imap_setflag_full($inbox, $overview[0]->msgno, "\Seen \Flagged");
                                 
