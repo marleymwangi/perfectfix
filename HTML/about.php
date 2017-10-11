@@ -216,8 +216,9 @@
                                 <span class="g-display-inline-block--xs g-width-100--xs g-height-100--xs g-font-size-38--xs g-color--primary g-bg-color--white g-box-shadow__dark-lightest-v4 g-padding-x-20--xs g-padding-y-20--xs g-radius--circle">01</span>
                             </div>
                             <div class="g-padding-x-20--xs">
-                                <h3 class="g-font-size-24--xs g-color--white">Collect</h3>
-                                <p class="g-color--white-opacity g-font-size-18--sm">Teams collect all the necessary information.</p>
+                                <h3 class="g-font-size-24--xs g-color--white">RESEARCH</h3>
+                                <p class="g-color--white-opacity g-font-size-18--sm">Research Previous works to understand past attempts to solve the problem</p>
+                                <p class="g-color--white-opacity g-font-size-18--sm">Develop hypothesis for testing bassed of findings</p>
                             </div>
                         </div>
                     </li>
@@ -230,8 +231,9 @@
                                 <span class="g-display-inline-block--xs g-width-100--xs g-height-100--xs g-font-size-38--xs g-color--primary g-bg-color--white g-box-shadow__dark-lightest-v4 g-padding-x-20--xs g-padding-y-20--xs g-radius--circle">02</span>
                             </div>
                             <div class="g-padding-x-20--xs">
-                                <h3 class="g-font-size-24--xs g-color--white">Preprocessing</h3>
-                                <p class="g-color--white-opacity g-font-size-18--sm">Sorting the data to ensure the data feed to the machine yield the best outcome.</p>
+                                <h3 class="g-font-size-24--xs g-color--white">DATA COLLECTION</h3>
+                                <p class="g-color--white-opacity g-font-size-18--sm">Write scripts to pull statistics for the historical timeframe needed</p>
+                                <p class="g-color--white-opacity g-font-size-18--sm">Transform the raw data into efficiency statistics for each game</p>
                             </div>
                         </div>
                     </li>
@@ -245,7 +247,8 @@
                             </div>
                             <div class="g-padding-x-20--xs">
                                 <h3 class="g-font-size-24--xs g-color--white">Prediction</h3>
-                                <p class="g-color--white-opacity g-font-size-18--sm">Running data through the machine to analyse and produces the likely outcome.</p>
+                                <p class="g-color--white-opacity g-font-size-18--sm">Build several models to tackle the problem</p>
+                                <p class="g-color--white-opacity g-font-size-18--sm">Split data into training sets and test sets and given test accuracy choose the final model</p>
                             </div>
                         </div>
                     </li>
@@ -258,8 +261,8 @@
                                 <span class="g-display-inline-block--xs g-width-100--xs g-height-100--xs g-font-size-38--xs g-color--primary g-bg-color--white g-box-shadow__dark-lightest-v4 g-padding-x-20--xs g-padding-y-20--xs g-radius--circle">04</span>
                             </div>
                             <div class="g-padding-x-20--xs">
-                                <h3 class="g-font-size-24--xs g-color--white">Release</h3>
-                                <p class="g-color--white-opacity g-font-size-18--sm">Give results to end users.</p>
+                                <h3 class="g-font-size-24--xs g-color--white">RESULTS</h3>
+                                <p class="g-color--white-opacity g-font-size-18--sm">Analyse the results and determine if additional datapoints are required for better accuracy</p>
                             </div>
                         </div>
                     </li>
