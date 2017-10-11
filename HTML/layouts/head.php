@@ -14,7 +14,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>PerfectFix</title>
-        <meta name="keywords" content="HTML5 Theme" />
+        <meta name="keywords" content="Deeplearning soccer predictions" />
         <meta name="description" content="Perfect Fix Prediction Services">
         <meta name="author" content="perfectfix.co">
 
