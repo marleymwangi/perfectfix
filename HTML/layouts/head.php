@@ -15,7 +15,7 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>PerfectFix</title>
         <meta name="keywords" content="Deeplearning football predictions" />
-        <meta name="description" content="Perfect Fix Prediction Services">
+        <meta name="description" content="Welcome to PerfectFix. We leverage the power of Artificial inteligence to provide you with football predictions that help you beat the bookies. Sign up with get one of our many packages and win.">
         <meta name="author" content="perfectfix.co">
 
         <!-- Web Fonts -->

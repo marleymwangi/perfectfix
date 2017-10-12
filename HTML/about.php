@@ -246,7 +246,7 @@
                                 <span class="g-display-inline-block--xs g-width-100--xs g-height-100--xs g-font-size-38--xs g-color--primary g-bg-color--white g-box-shadow__dark-lightest-v4 g-padding-x-20--xs g-padding-y-20--xs g-radius--circle">03</span>
                             </div>
                             <div class="g-padding-x-20--xs">
-                                <h3 class="g-font-size-24--xs g-color--white">Prediction</h3>
+                                <h3 class="g-font-size-24--xs g-color--white">PREDICTION</h3>
                                 <p class="g-color--white-opacity g-font-size-18--sm">Build several models to tackle the problem</p>
                                 <p class="g-color--white-opacity g-font-size-18--sm">Split data into training sets and test sets and given test accuracy choose the final model</p>
                             </div>
