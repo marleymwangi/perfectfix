@@ -17,7 +17,7 @@
         <section class="s-video-v2__bg" style="background: url(img/1920x1080/04.jpg) 50% 0 no-repeat fixed;">
             <div class="container g-position--overlay g-text-center--xs">
                 <div class="g-padding-y-50--xs g-margin-t-100--xs g-margin-b-100--xs g-margin-b-250--md">
-                    <h1 class="g-font-size-36--xs g-font-size-50--sm g-font-size-60--md g-color--white">Subcribe to the package that</h1>
+                    <h1 class="g-font-size-36--xs g-font-size-50--sm g-font-size-60--md g-color--white">Subscribe to the package that</h1>
                     <h2 class="g-font-size-36--xs g-font-size-50--sm g-font-size-60--md g-color--white">best works for you.</h2>
                 </div>
             </div>
