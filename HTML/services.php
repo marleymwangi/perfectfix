@@ -129,7 +129,7 @@
                                                 </div>
                                                 <input type="hidden" name="subs" value="package2"/>
                                                 <div class="g-text-center--xs">
-                                                    <button type="submit" class="text-uppercase s-btn s-btn--xs s-btn--white-bg g-radius--50 g-font-weight--700" id="form-menu" name="submit">Buy</button>
+                                                    <button type="submit" class="text-uppercase s-btn s-btn--xs s-btn--white-bg g-radius--50 g-font-weight--700" id="form-menu" name="submit">Done</button>
                                                 </div>
                                             </form>
                                             </div>
