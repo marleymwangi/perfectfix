@@ -1,6 +1,9 @@
 /*----------------------------------
   Font Size
 ------------------------------------*/
+.red{
+  background: red;
+}
 .g-font-size-10--xs {
   font-size: 0.625rem !important;
 }

@@ -14,7 +14,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>PerfectFix</title>
-        <meta name="keywords" content="Deeplearning football predictions" />
+        <meta name="keywords" content="Deeplearning football predictions"/>
         <meta name="description" content="Welcome to PerfectFix. We leverage the power of Artificial inteligence to provide you with football predictions that help you beat the bookies. Sign up with get one of our many packages and win.">
         <meta name="author" content="perfectfix.co">
 

@@ -39,7 +39,7 @@
                     <nav class="s-header__nav js__scrollbar">
                         <div class="container-fluid g-height-400--xs">
 
-                            <!-- Menu List -->                                
+                            <!-- Menu List -->                             
                             <div id="menumain" class="g-display-none--xs"><?php include "menumain.php" ?></div>
                             <div id="menuuser" class="g-display-none--xs"><?php include "menuuser.php" ?></div>
                             <!-- End Menu List -->

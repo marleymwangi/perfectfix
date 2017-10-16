@@ -47,7 +47,7 @@ if (isset($_POST['submit'])) {
 					$_SESSION['passwrd'] = $row['passwrd'];
 					$_SESSION['email'] = $row['email'];
 					$_SESSION['phone'] = $row['phone'];
-					
+
 					header("Location: ../index.php?login=success");
 					exit();
 				}
