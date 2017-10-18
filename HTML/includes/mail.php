@@ -1,4 +1,3 @@
-#!/usr/bin/php -q
 <?php
 /* try to connect */
 $inbox = imap_open('{imappro.zoho.com:993/imap/ssl/novalidate-cert} /Inbox','trans@perfectfix.co','perfectfix') or die('Cannot connect to perfectfix domain');
