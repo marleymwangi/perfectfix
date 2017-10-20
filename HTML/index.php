@@ -50,10 +50,46 @@
 
         <!--========== PAGE CONTENT ==========-->
 
+        <!-- information -->
+        <div class="g-promo-section">
+            <div class="container g-padding-y-80--xs g-padding-y-125--sm">
+                <div class="row">
+                    <div class="col-md-4 g-margin-t-15--xs g-margin-b-60--xs g-margin-b-0--lg">
+                        <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Welcome to Perfect Fix</p>
+                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".1s">
+                            <h2 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md">Predict</h2>
+                        </div>
+                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
+                            <h2 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md"> A Winner</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-md-offset-1">
+                        <p class="g-font-size-18--xs"><span class="g-font-weight--700">Serious Bettors like you know they need to look at as many facts as possible before betting on the outcome of any soccer match.</span> But the problem is that it takes such a long time to pull all the facts together. Even for your “favourite” team, the opponent’s details will be completely different from week-to-week. You could try compiling your own database and then unfailingly updating it, but a worthwhile database system would take you a long time to build and a lot of effort to systematically update. </p>
+                        <p class="g-font-size-18--xs g-font-weight--700"><span class="g-font-style-italics g-color--primary">Do you really want to go through all that pain if you can avoid it?</span> Of course not! And that's where we come in.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 g-promo-section__img-right--lg g-bg-position--center g-height-100-percent--md js__fullwidth-img">
+                <img class="img-responsive" src="img/970x970/03.jpg" alt="Image">
+            </div>
+        </div>
+        <!-- End Information -->
+
+        <!-- Parallax -->
+        <div class="js__parallax-window" style="background: url(img/1920x1080/03.jpg) 50% 0 no-repeat fixed;">
+            <div class="container g-text-center--xs g-padding-y-80--xs g-padding-y-125--sm">
+                <div class="g-margin-b-80--xs">
+                    <h2 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md g-color--white">Subscribe to our Prediction packages</h2>
+                </div>
+                <a href="signup.php" class="text-uppercase s-btn s-btn--md s-btn--white-brd g-radius--50">Join Us</a>
+            </div>
+        </div>
+        <!-- End Parallax -->
+
         <!-- Features -->
         <div id="js__scroll-to-section" class="container g-padding-y-80--xs g-padding-y-125--sm">
             <div class="g-text-center--xs g-margin-b-100--xs">
-                <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Welcome to PerfectFix</p>
+                <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">information</p>
                 <h2 class="g-font-size-32--xs g-font-size-36--md">We help you Improve your Chances<br> That will guide you to Success.</h2>
             </div>
             <div class="row g-margin-b-60--xs g-margin-b-70--md">
@@ -139,41 +175,6 @@
         </div>
         <!-- End Features -->
 
-        <!-- Parallax -->
-        <div class="js__parallax-window" style="background: url(img/1920x1080/03.jpg) 50% 0 no-repeat fixed;">
-            <div class="container g-text-center--xs g-padding-y-80--xs g-padding-y-125--sm">
-                <div class="g-margin-b-80--xs">
-                    <h2 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md g-color--white">Subscribe to our Prediction packages</h2>
-                </div>
-                <a href="signup.php" class="text-uppercase s-btn s-btn--md s-btn--white-brd g-radius--50">Join Us</a>
-            </div>
-        </div>
-        <!-- End Parallax -->
-
-        <!-- information -->
-        <div class="g-promo-section">
-            <div class="container g-padding-y-80--xs g-padding-y-125--sm">
-                <div class="row">
-                    <div class="col-md-4 g-margin-t-15--xs g-margin-b-60--xs g-margin-b-0--lg">
-                        <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Information</p>
-                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".1s">
-                            <h2 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md">Predict</h2>
-                        </div>
-                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
-                            <h2 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md"> A Winner</h2>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-md-offset-1">
-                        <p class="g-font-size-18--xs"><span class="g-font-weight--700">Serious Bettors like you know they need to look at as many facts as possible before betting on the outcome of any soccer match.</span> But the problem is that it takes such a long time to pull all the facts together. Even for your “favourite” team, the opponent’s details will be completely different from week-to-week. You could try compiling your own database and then unfailingly updating it, but a worthwhile database system would take you a long time to build and a lot of effort to systematically update. </p>
-                        <p class="g-font-size-18--xs g-font-weight--700"><span class="g-font-style-italics g-color--primary">Do you really want to go through all that pain if you can avoid it?</span> Of course not! And that's where we come in.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-3 g-promo-section__img-right--lg g-bg-position--center g-height-100-percent--md js__fullwidth-img">
-                <img class="img-responsive" src="img/970x970/03.jpg" alt="Image">
-            </div>
-        </div>
-        <!-- End Information -->
 
         <!-- Counter -->
             <?php include("layouts/clients.php") ?>
