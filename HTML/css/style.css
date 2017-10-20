@@ -1230,7 +1230,7 @@ div section {
 }
 
 .flat_nav a:hover{
-  color: ff0000 !important;
+  color: #ff0000 !important;
   font-weight: bold;
 }
 
@@ -1244,7 +1244,7 @@ div section {
   .hamburger{
     display: none;
   }
-  
+
   .flat_nav ul li{
     margin-top: -2rem;
     margin-left: 0.3rem;
