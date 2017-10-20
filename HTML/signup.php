@@ -39,24 +39,24 @@
                 </div>
                 <form class="center-block g-width-500--sm g-width-550--md" action="includes/signup.inc.php" method="POST">
                     <div class="g-margin-b-30--xs">
-                        <input type="text" class="form-control s-form-v3__input g-font-weight--700" placeholder="* First Name" name = "firstName" >
+                        <input type="text" class="form-control s-form-v3__input g-font-weight--700" placeholder="* FIRST NAME" name = "firstName" >
                     </div>
                     <div class="g-margin-b-30--xs">
-                        <input type="text" class="form-control s-form-v3__input g-font-weight--700" placeholder="* Last Name" name="lastName">
+                        <input type="text" class="form-control s-form-v3__input g-font-weight--700" placeholder="* LAST NAME" name="lastName">
                     </div>
                     <div class="g-margin-b-30--xs">
-                        <input type="text" class="form-control s-form-v3__input g-font-weight--700" placeholder="* Username" name="userName">
+                        <input type="text" class="form-control s-form-v3__input g-font-weight--700" placeholder="* USER NAME" name="userName">
                     </div>
                     <div class="row g-row-col-5 g-margin-b-50--xs">
                         <div class="col-sm-6 g-margin-b-30--xs g-margin-b-0--md">
-                            <input type="password" class="form-control s-form-v3__input g-font-weight--700" placeholder="* Password" name="passwrd">
+                            <input type="password" class="form-control s-form-v3__input g-font-weight--700" placeholder="* PASSWORD" name="passwrd">
                         </div>
                         <div class="col-sm-6">
-                            <input type="password" class="form-control s-form-v3__input g-font-weight--700" placeholder="* Re-Type Password" name="retypepass">
+                            <input type="password" class="form-control s-form-v3__input g-font-weight--700" placeholder="* RE-TYPE PASSWORD" name="retypepass">
                         </div>
                     </div>
                     <div class="g-margin-b-30--xs">
-                            <input type="email" class="form-control s-form-v3__input g-font-weight--700" placeholder="* Email" name="email">
+                            <input type="email" class="form-control s-form-v3__input g-font-weight--700" placeholder="* EMAIL" name="email">
                             </i>
                     </div>
                     <div class="g-margin-b-30--xs">
@@ -67,7 +67,7 @@
                     </div>
                 </form>
                 <div class="g-text-center--xs g-margin-t-50--xs g-margin-b-80--xs">
-                    <a class="text-uppercase g-font-size-16--xs g-font-weight--700 g-color--primary-opacity g-letter-spacing--2 g-margin-b-25--xs" href="signin.php">Already have an account</a>
+                    <a class="text-uppercase g-font-size-16--xs g-font-weight--700 g-color--primary-opacity g-letter-spacing--2 g-margin-b-25--xs" href="signin.php">Already have an account? Click here!</a>
                 </div>
             </div>
             <img class="s-mockup-v2" src="img/mockups/pencil-01.png" alt="Mockup Image">

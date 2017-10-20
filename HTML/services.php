@@ -47,12 +47,12 @@
                                             <i class="g-display-block--xs g-font-size-40--xs g-color--primary g-margin-b-30--xs ti-cup"></i>
                                             <h3 class="g-font-size-18--xs g-color--primary g-margin-b-30--xs">Package1</h3>
                                             <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-40--xs">
-                                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i>Get 5 sure bets<br>every day for 1 week</li>
+                                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i>Get 5 sure bets<br>every day</li>
                                                 <li><i class="g-font-size-18--xs g-color--primary g-margin-r-10--xs ti-arrow-circle-down"></i>  For just </li>
                                             </ul>
                                             <div class="g-margin-b-40--xs">
                                                 <span class="s-plan-v1__price-mark">Ksh.</span>
-                                                <span class="s-plan-v1__price-tag">150</span>
+                                                <span class="s-plan-v1__price-tag">50</span>
                                             </div>
                                             <button type="button" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--50 g-padding-x-50--xs" onclick="flip()">Buy</button>
                                         </div>
@@ -104,7 +104,7 @@
                                             </ul>
                                             <div class="g-margin-b-40--xs">
                                                 <span class="s-plan-v1__price-mark">Ksh.</span>
-                                                <span class="s-plan-v1__price-tag">100</span>
+                                                <span class="s-plan-v1__price-tag">50</span>
                                             </div>
                                             <button type="button" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--50 g-padding-x-50--xs" onclick="flip2()">Buy</button>
                                         </div>
@@ -157,7 +157,7 @@
                                             </ul>
                                             <div class="g-margin-b-40--xs">
                                                 <span class="s-plan-v1__price-mark">Ksh.</span>
-                                                <span class="s-plan-v1__price-tag">100</span>
+                                                <span class="s-plan-v1__price-tag">50</span>
                                             </div>
                                             <button type="button" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--50 g-padding-x-50--xs" onclick="flip3()">Buy</button>
                                         </div>
@@ -209,7 +209,7 @@
                                             </ul>
                                             <div class="g-margin-b-40--xs">
                                                 <span class="s-plan-v1__price-mark">Ksh.</span>
-                                                <span class="s-plan-v1__price-tag">100</span>
+                                                <span class="s-plan-v1__price-tag">50</span>
                                             </div>
                                             <button type="button" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--50 g-padding-x-50--xs" onclick="flip4()">Buy</button>
                                         </div>

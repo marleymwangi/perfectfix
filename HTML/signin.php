@@ -49,7 +49,7 @@
                     </div>
                 </form>
                 <div class="g-text-center--xs g-margin-t-50--xs g-margin-b-80--xs">
-                    <a class="text-uppercase g-font-size-16--xs g-font-weight--700 g-color--primary-opacity g-letter-spacing--2 g-margin-b-25--xs" href="signup.php"> Dont have an account? Click here!!</a>
+                    <a class="text-uppercase g-font-size-16--xs g-font-weight--700 g-color--primary-opacity g-letter-spacing--2 g-margin-b-25--xs" href="signup.php"> Dont have an account? Click here!</a>
                 </div>
             </div>
             <img class="s-mockup-v2" src="img/mockups/pencil-01.png" alt="Mockup Image">
