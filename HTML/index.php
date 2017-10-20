@@ -107,7 +107,6 @@
                         </div>
                         <div class="g-media__body g-padding-x-20--xs">
                             <h3 class="g-font-size-18--xs">WE DO ALL THE HARD WORK FOR YOU!</h3>
-                            <p class="g-margin-b-0--xs">It is true that collecting all the data necessary for making good betting decisions takes considerable time and energy if you are going to do it right. But we save you the effort by doing it all for you; and, in addition, we also use that data to produce the following very useful soccer prediction tools (all unique to us).</p>
                         </div>
                     </div>
                 </div>
@@ -120,7 +119,6 @@
                         </div>
                         <div class="g-media__body g-padding-x-20--xs">
                             <h3 class="g-font-size-18--xs">A WINNER - YOUR BRAIN + OUR COMPUTER OUTPUT!</h3>
-                            <p class="g-margin-b-0--xs">There may well be nagging doubts at the back of your mind telling you that no computer can produce reliable football predictions. And to a certain extent you would be right, of course - computers can only go so far. However when properly programmed and fed the right data, computers can give you a very good indication as to what ought to happen in a given soccer match.</p>
                         </div>
                     </div>
                 </div>
@@ -133,7 +131,6 @@
                         </div>
                         <div class="g-media__body g-padding-x-20--xs">
                             <h3 class="g-font-size-18--xs">OUR SERVICES ARE SO AFFORDABLE!</h3>
-                            <p class="g-margin-b-0--xs">Having seen for yourself the considerable amount of effort we put into providing our quality Soccer Prediction Services, one worry you may well have could be why we are offering the fruits of our labour so cheaply. So dont delay! Subscribe with us today and immediately inprove your chances of winning</p>
                         </div>
                     </div>
                 </div>
