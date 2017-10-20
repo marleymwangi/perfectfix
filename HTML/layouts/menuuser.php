@@ -1,6 +1,6 @@
 <ul class="list-unstyled s-header__nav-menu">
 
-    <<?php 
+    <?php 
         if (isset($_SESSION['userName'])) {
             include ("headerout.php");
             

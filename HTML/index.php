@@ -197,20 +197,11 @@
         <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
         <script type="text/javascript" src="vendor/jquery.min.js"></script>
         <script type="text/javascript">
-                if(window.location.href.indexOf("login=empty") > -1) {
-                   swal("Check Sign in Details", "One of the fields is empty", "error");
-                }
-                if(window.location.href.indexOf("login=Uerror") > -1) {
-                   swal("Check Sign in Details", "You entered the User Name", "error");
-                }
-                if(window.location.href.indexOf("login=Perror") > -1) {
-                   swal("Check Sign in Details", "You entered the Password", "error");
-                }
                 if(window.location.href.indexOf("login=success") > -1) {
-                   swal("Login successfull", "You were Logged in successfully", "success");
+                   swal("Log In successfull", "You were Logged in successfully", "success");
                 }
-                if(window.location.href.indexOf("login=notsignedinerror") > -1) {
-                   swal("Sorry", "You don't seem to be signed in", "info");
+                if(window.location.href.indexOf("logout=success") > -1) {
+                   swal("Log Out successfull", "You were Logged out successfully", "success");
                 }
         </script>
         <script type="text/javascript" src="vendor/jquery.migrate.min.js"></script>

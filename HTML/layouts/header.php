@@ -15,17 +15,29 @@
                             <!-- End Logo -->
                         </div>
                         <div class="s-header__navbar-row-col">
-
-                            <a href="javascript:void(0);" class="s-header__trigger js__trigger-user">
-                                	<i class="g-display-block--xs g-font-size-40--xs g-color--primary-opacity g-margin-b-30--xs ti-user"></i>
-                            </a>
                             <!-- Trigger -->
-                            <a href="javascript:void(0);" class="s-header__trigger js__trigger">
+                            <a href="javascript:void(0);" class="s-header__trigger js__trigger g-margin-l-70--xs hamburger">
                                 <span class="s-header__trigger-icon"></span>
                                 <svg x="0rem" y="0rem" width="3.125rem" height="3.125rem" viewbox="0 0 54 54">
-                                    <circle fill="transparent" stroke="#fff" stroke-width="1" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
+                                    <circle fill="transparent" stroke="#fff" stroke-width="3" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
                                 </svg>
                             </a>
+                            
+                            <div class="flat_nav g-pull-right--xs">
+                                <ul>
+                                    <li class="g-display-inline-block--xs g-margin-l-40--xs g-margin-t-40--xs g-font-weight--400"><a href="index.php" class="g-color--primary">Home</a></li>
+                                    <li class="g-display-inline-block--xs g-margin-l-40--xs g-margin-t-40--xs g-font-weight--400"><a href="services.php" class="g-color--primary">Packages</a></li>
+                                    <li class="g-display-inline-block--xs g-margin-l-40--xs g-margin-t-40--xs g-font-weight--400"><a href="contacts.php" class="g-color--primary">Contact Us</a></li>
+                                    <?php 
+                                        if (isset($_SESSION['userName'])) {
+                                            echo '<li class="g-display-inline-block--xs g-margin-l-40--xs g-margin-t-40--xs g-font-weight--400"><a href="includes/logout.inc.php" class="g-color--primary">Log Out</a></li>';                                            
+                                        } else{
+
+                                            echo '<li class="g-display-inline-block--xs g-margin-l-40--xs g-margin-t-40--xs g-font-weight--400"><a href="signin.php" class="g-color--primary">Log In</a></li>';
+                                        }
+                                     ?>
+                                </ul>
+                            </div>
                             <!-- End Trigger -->
                         </div>
                     </div>

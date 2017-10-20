@@ -18,8 +18,8 @@
         <div class="g-position--relative g-bg-color--dark-light">
             <div class="g-container--md g-padding-y-125--xs">
                 <div class="g-text-center--xs g-margin-t-50--xs g-margin-b-80--xs">
-                    <p class="text-uppercase g-font-size-16--xs g-font-weight--700 g-color--white-opacity g-letter-spacing--2 g-margin-b-25--xs">Sign Up</p>
-                    <h2 class="g-font-size-32--xs g-font-size-36--sm g-color--white">Create an Account</h2>
+                    <p class="text-uppercase g-font-size-16--xs g-font-weight--700 g-color--white-opacity g-letter-spacing--2 g-margin-b-25--xs">Enter Details below</p>
+                    <h2 class="g-font-size-32--xs g-font-size-36--sm g-color--white">Sign in</h2>
                 </div>
                 <div class="row g-row-col--5 g-margin-b-80--xs ">
                     <div class="col-xs-6 g-full-width--xs g-margin-b-50--xs g-margin-b-0--sm">
@@ -37,37 +37,19 @@
                         </div>
                     </div>
                 </div>
-                <form class="center-block g-width-500--sm g-width-550--md" action="includes/signup.inc.php" method="POST">
+                <form class="center-block g-width-500--sm g-width-550--md" action="includes/signin.inc.php" method="POST">
                     <div class="g-margin-b-30--xs">
-                        <input type="text" class="form-control s-form-v3__input g-font-weight--700" placeholder="* First Name" name = "firstName" >
+                        <input type="text" class="form-control s-form-v3__input g-font-weight--500" placeholder="* USERNAME *" name="userName">
                     </div>
                     <div class="g-margin-b-30--xs">
-                        <input type="text" class="form-control s-form-v3__input g-font-weight--700" placeholder="* Last Name" name="lastName">
-                    </div>
-                    <div class="g-margin-b-30--xs">
-                        <input type="text" class="form-control s-form-v3__input g-font-weight--700" placeholder="* Username" name="userName">
-                    </div>
-                    <div class="row g-row-col-5 g-margin-b-50--xs">
-                        <div class="col-sm-6 g-margin-b-30--xs g-margin-b-0--md">
-                            <input type="password" class="form-control s-form-v3__input g-font-weight--700" placeholder="* Password" name="passwrd">
-                        </div>
-                        <div class="col-sm-6">
-                            <input type="password" class="form-control s-form-v3__input g-font-weight--700" placeholder="* Re-Type Password" name="retypepass">
-                        </div>
-                    </div>
-                    <div class="g-margin-b-30--xs">
-                            <input type="email" class="form-control s-form-v3__input g-font-weight--700" placeholder="* Email" name="email">
-                            </i>
-                    </div>
-                    <div class="g-margin-b-30--xs">
-                            <input type="text" class="form-control s-form-v3__input g-font-weight--700" placeholder="* 07XX XXX XXX" name="phone">
+                            <input type="password" class="form-control s-form-v3__input g-font-weight--500" placeholder="* PASSWORD *" name="passwrd">
                     </div>
                     <div class="g-text-center--xs">
                         <button type="submit" class="text-uppercase s-btn s-btn--md s-btn--white-bg g-radius--50 g-padding-x-70--xs g-margin-b-20--xs g-font-weight--700" name="submit">Submit</button>
                     </div>
                 </form>
                 <div class="g-text-center--xs g-margin-t-50--xs g-margin-b-80--xs">
-                    <a class="text-uppercase g-font-size-16--xs g-font-weight--700 g-color--primary-opacity g-letter-spacing--2 g-margin-b-25--xs" href="signin.php">Already have an account</a>
+                    <a class="text-uppercase g-font-size-16--xs g-font-weight--700 g-color--primary-opacity g-letter-spacing--2 g-margin-b-25--xs" href="signup.php">Dont have an account</a>
                 </div>
             </div>
             <img class="s-mockup-v2" src="img/mockups/pencil-01.png" alt="Mockup Image">
@@ -87,32 +69,21 @@
         <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
         <script type="text/javascript" src="vendor/jquery.min.js"></script>
         <script type="text/javascript">
-            $(document).ready(function () {
-                if(window.location.href.indexOf("signup=empty") > -1) {
-                   swal("Check Sign in Details", "One of the fields is empty", "error");;
+                if(window.location.href.indexOf("login=empty") > -1) {
+                   swal("Check Sign in Details", "One of the fields is empty", "error");
                 }
-                if(window.location.href.indexOf("signup=invalidname") > -1) {
-                   swal("Check First or Last", "Names cannot contain Special Characters", "error");;
+                if(window.location.href.indexOf("login=Uerror") > -1) {
+                   swal("Check Sign in Details", "You entered an invalid User Name", "error");
                 }
-                if(window.location.href.indexOf("signup=invaliduserName") > -1) {
-                   swal("Check User Name", "Account exist with that User Name", "error");;
-                }
-                if(window.location.href.indexOf("signup=invalidemail") > -1) {
-                   swal("Check Email address", "You entered an Invald Email address", "error");
-                }
-                if(window.location.href.indexOf("ssignup=invalidphone") > -1) {
-                   swal("Check Phone Number", "Account exist with that User Name", "error");;
-                }
-                if(window.location.href.indexOf("signup=signup=passmismatch") > -1) {
-                   swal("Password Mismatch", "Password Verification Mismatch", "error");;
+                if(window.location.href.indexOf("login=Perror") > -1) {
+                   swal("Check Sign in Details", "You entered an invalid Password", "error");
                 }
                 if(window.location.href.indexOf("login=success") > -1) {
-                   swal("Transaction Complete", "Transaction is being processed. Might take a few minuites", "success");;
+                   swal("Login successfull", "You were Logged in successfully", "success");
                 }
                 if(window.location.href.indexOf("login=notsignedinerror") > -1) {
-                   swal("Sorry", "You don't seem to be signed in", "info");;
+                   swal("Sorry", "You don't seem to be signed in", "info");
                 }
-            });
         </script>
         <script type="text/javascript" src="vendor/jquery.migrate.min.js"></script>
         <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>

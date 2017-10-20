@@ -14,7 +14,7 @@ if (isset($_POST['submit'])) {
 	//check for empty fields
 	if (empty($userName) || empty($passwrd)) {
 		
-		header("Location: ../index.php?login=empty");
+		header("Location: ../signin.php?login=empty");
 		echo 'swal("Check Sign in Details", "One of the fields is empty", "error");';
 		exit();
 
@@ -27,7 +27,7 @@ if (isset($_POST['submit'])) {
 
 		if ($resultcheck < 1) {
 
-			header("Location: ../index.php?login=Uerror");
+			header("Location: ../signin.php?login=Uerror");
 			exit();
 		} else {
 
@@ -36,7 +36,7 @@ if (isset($_POST['submit'])) {
 				//dehash and check password
 				$hashedPwdcheck = password_verify($passwrd, $row['passwrd']);
 				if ($hashedPwdcheck == false) {
-					header("Location: ../index.php?login=Perror");
+					header("Location: ../signin.php?login=Perror");
 					exit();
 				}else if ($hashedPwdcheck == true) {
 					//login user
@@ -56,6 +56,6 @@ if (isset($_POST['submit'])) {
 	}
 
 	} else {
-	header("Location: ../index.php");
+	header("Location: ../signin.php");
 	exit();
 }
