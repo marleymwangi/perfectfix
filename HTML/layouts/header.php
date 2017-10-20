@@ -27,6 +27,11 @@
                                 <ul>
                                     <li class="g-display-inline-block--xs g-font-weight--400"><a href="index.php" class="g-color--primary">Home</a></li>
                                     <li class="g-display-inline-block--xs g-font-weight--400"><a href="services.php" class="g-color--primary">Packages</a></li>
+                                    <?php 
+                                        if (isset($_SESSION['userName'])) {
+                                            echo '<li class="g-display-inline-block--xs g-font-weight--400"><a href="weekgames.php" class="g-color--primary">Predictions</a></li>';                                            
+                                        }
+                                     ?>
                                     <li class="g-display-inline-block--xs g-font-weight--400"><a href="contacts.php" class="g-color--primary">Contact Us</a></li>
                                     <?php 
                                         if (isset($_SESSION['userName'])) {

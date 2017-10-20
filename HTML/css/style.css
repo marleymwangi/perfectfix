@@ -1219,6 +1219,7 @@ div section {
 
 /* Trigger
 ------------------------------ */
+
 .flat_nav ul{
   margin: 0;
   padding: 0;
@@ -1399,7 +1400,7 @@ div section {
 }
 
 .s-header-bg-overlay.-is-open {
-  background: rgba(34, 35, 36, 0.99);
+  background: #0f0d0d;
   visibility: visible;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
