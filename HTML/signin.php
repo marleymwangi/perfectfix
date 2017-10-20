@@ -21,22 +21,6 @@
                     <p class="text-uppercase g-font-size-16--xs g-font-weight--700 g-color--white-opacity g-letter-spacing--2 g-margin-b-25--xs">Enter Details below</p>
                     <h2 class="g-font-size-32--xs g-font-size-36--sm g-color--white">Sign in</h2>
                 </div>
-                <div class="row g-row-col--5 g-margin-b-80--xs ">
-                    <div class="col-xs-6 g-full-width--xs g-margin-b-50--xs g-margin-b-0--sm">
-                        <div class="g-text-center--xs">
-                            <i class="g-display-block--xs g-font-size-40--xs g-color--white-opacity g-margin-b-30--xs ti-email"></i>
-                            <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Email</h4>
-                            <p class="g-color--white-opacity">info@perfectfix.co</p>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 g-full-width--xs">
-                        <div class="g-text-center--xs">
-                            <i class="g-display-block--xs g-font-size-40--xs g-color--white-opacity g-margin-b-30--xs ti-headphone-alt"></i>
-                            <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Call at</h4>
-                            <p class="g-color--white-opacity">+ (254) 700  473 319</p>
-                        </div>
-                    </div>
-                </div>
                 <form class="center-block g-width-500--sm g-width-550--md" action="includes/signin.inc.php" method="POST">
                     <div class="g-margin-b-30--xs">
                         <input type="text" class="form-control s-form-v3__input g-font-weight--500" placeholder="* USERNAME *" name="userName">

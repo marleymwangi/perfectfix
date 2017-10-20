@@ -15,7 +15,7 @@
 
         <!--========== PAGE CONTENT ==========-->
         <!-- Feedback Form -->
-        <div class="g-position--relative g-bg-color--primary">
+        <div class="g-position--relative g-bg-color--primary-to-blueviolet-ltr">
             <div class="g-container--md g-padding-y-125--xs">
                 <div class="g-text-center--xs g-margin-t-50--xs g-margin-b-80--xs">
                     <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--white-opacity g-letter-spacing--2 g-margin-b-25--xs">Contact Us</p>
