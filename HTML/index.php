@@ -66,7 +66,7 @@
                         </div>
                         <div class="g-media__body g-padding-x-20--xs">
                             <h3 class="g-font-size-18--xs"> WE GIVE YOU SUPERIOR DATA!</h3>
-                            <p class="g-margin-b-0--xs">While other soccer prediction sites only offer you a listing of the probabilities for the possible 1x2 match outcomes, we go beyond that! We provide all the information needed by any serious bettor to make excellent betting choices.</p>
+                            
                         </div>
                     </div>
                 </div>
@@ -79,7 +79,7 @@
                         </div>
                         <div class="g-media__body g-padding-x-20--xs">
                             <h3 class="g-font-size-18--xs">WE FILL THE GAPS IN YOUR ARSENAL!</h3>
-                            <p class="g-margin-b-0--xs">If you are truly serious about making money at soccer betting and want to start beating the Bookies on a regular basis you’ve come to the right place, because we provide the best soccer prediction data available on the Internet today!</p>
+                            
                         </div>
                     </div>
                 </div>
@@ -92,7 +92,6 @@
                         </div>
                         <div class="g-media__body g-padding-x-20--xs">
                             <h3 class="g-font-size-18--xs">NO SENSE IN YOU DOING IT ALONE!</h3>
-                            <p class="g-margin-b-0--xs">To help you realise just how useful our Services could be to you, consider what you would need to do – and the time it would take you – to search out, by yourself, all the information you would need to answer the simple question - Which team is most likely to win this soccer match?</p>
                         </div>
                     </div>
                 </div>
