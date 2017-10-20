@@ -25,15 +25,15 @@
                             
                             <div class="flat_nav g-pull-right--xs">
                                 <ul>
-                                    <li class="g-display-inline-block--xs g-margin-l-40--xs g-margin-t-40--xs g-font-weight--400"><a href="index.php" class="g-color--primary">Home</a></li>
-                                    <li class="g-display-inline-block--xs g-margin-l-40--xs g-margin-t-40--xs g-font-weight--400"><a href="services.php" class="g-color--primary">Packages</a></li>
-                                    <li class="g-display-inline-block--xs g-margin-l-40--xs g-margin-t-40--xs g-font-weight--400"><a href="contacts.php" class="g-color--primary">Contact Us</a></li>
+                                    <li class="g-display-inline-block--xs g-font-weight--400"><a href="index.php" class="g-color--primary">Home</a></li>
+                                    <li class="g-display-inline-block--xs g-font-weight--400"><a href="services.php" class="g-color--primary">Packages</a></li>
+                                    <li class="g-display-inline-block--xs g-font-weight--400"><a href="contacts.php" class="g-color--primary">Contact Us</a></li>
                                     <?php 
                                         if (isset($_SESSION['userName'])) {
-                                            echo '<li class="g-display-inline-block--xs g-margin-l-40--xs g-margin-t-40--xs g-font-weight--400"><a href="includes/logout.inc.php" class="g-color--primary">Log Out</a></li>';                                            
+                                            echo '<li class="g-display-inline-block--xs g-font-weight--400"><a href="includes/logout.inc.php" class="g-color--primary">Log Out</a></li>';                                            
                                         } else{
 
-                                            echo '<li class="g-display-inline-block--xs g-margin-l-40--xs g-margin-t-40--xs g-font-weight--400"><a href="signin.php" class="g-color--primary">Log In</a></li>';
+                                            echo '<li class="g-display-inline-block--xs g-font-weight--400"><a href="signin.php" class="g-color--primary">Log In</a></li>';
                                         }
                                      ?>
                                 </ul>

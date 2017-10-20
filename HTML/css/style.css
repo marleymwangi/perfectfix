@@ -1244,6 +1244,7 @@ div section {
   .hamburger{
     display: none;
   }
+  
   .flat_nav ul li{
     margin-top: -2rem;
     margin-left: 0.3rem;
