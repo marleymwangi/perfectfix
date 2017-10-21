@@ -60,6 +60,8 @@ if ($result->num_rows > 0) {
 						if ($resultCheck3 = 1) {
 							$sql="UPDATE subs SET $subs = 1 WHERE userId = '$userId' ;";
 							mysqli_query($conn, $sql);
+							$sql="INSERT INTO processedSubs (userId, subs) VALUES ('$userId','$subs');";
+							mysqli_query($conn, $sql);
 							$sql = "DELETE FROM pendingsubs WHERE userId= '$userId' ;";
 							mysqli_query($conn, $sql);
 						}
