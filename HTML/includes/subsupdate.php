@@ -11,9 +11,9 @@ if ($result->num_rows > 0) {
     	$confirmed = false;
         $userId = $row['userId'];
         $subs = $row['subs'];
-        $cost = 100;
+        $cost = 50;
         if ($subs=="package1") {
-        	$cost=150;
+        	$cost=50;
         }
 
         $sql = "SELECT * FROM users WHERE userId = '$userId' ;";
