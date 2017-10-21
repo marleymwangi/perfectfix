@@ -48,6 +48,12 @@ if (isset($_POST['submit'])) {
 					$_SESSION['email'] = $row['email'];
 					$_SESSION['phone'] = $row['phone'];
 
+					$cookieName = "userData";
+					$expiry = time()+60*60*24*2;
+					setcookie('userData[UserName]', $_SESSION['userName'], $expiry);
+					setcookie('userData[passwrd]', $_SESSION['passwrd'], $expiry);
+
+
 					header("Location: ../index.php?login=success");
 					exit();
 				}

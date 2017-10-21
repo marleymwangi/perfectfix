@@ -964,13 +964,13 @@ div section {
   height: auto;
 }
 
-@media (max-width: 33.9em) {
+@media (max-width: 34em) {
   .s-mockup-v2 {
     display: none;
   }
 }
 
-@media (min-width: 34em) {
+@media (min-width: 35em) {
   .s-mockup-v2 {
     position: absolute;
     left: 0.625rem;
@@ -1415,7 +1415,8 @@ div section {
 
 /* Menu List */
 .s-header__nav-menu {
-  width: 18.75rem;
+  width: 30rem;
+  height: 30rem;
   float: right;
   text-align: right;
   margin-bottom: 0;
