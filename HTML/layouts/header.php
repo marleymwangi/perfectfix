@@ -28,7 +28,7 @@
                             <div class="collapse navbar-collapse s-header-v2__navbar-collapse" id="nav-collapse">
                                 <ul class="s-header-v2__nav">
                                     <li class="s-header-v2__nav-item"><a href="index.php" class="s-header-v2__nav-link <?php if ($page=='home') {echo'-is-active'; }?>">Home</a></li>
-                                    <li class="s-header-v2__nav-item"><a href="services.php" class="s-header-v2__nav-link <?php if ($page=='services') {echo'-is-active'; }?>">Packages</a></li>
+                                    <li class="s-header-v2__nav-item"><a href="services.php" class="s-header-v2__nav-link <?php if ($page=='services') {echo'-is-active'; }?>">Get Tips</a></li>
                                     <?php
                                         if (isset($_SESSION['userName'])) {
                                             echo '<li class="s-header-v2__nav-item"><a href="weekgames.php" class="s-header-v2__nav-link">Prediction</a></li>';
