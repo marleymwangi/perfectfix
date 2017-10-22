@@ -1220,65 +1220,6 @@ div section {
 /* Trigger
 ------------------------------ */
 
-.flat_nav ul{
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.flat_nav a{
-  text-transform: uppercase;
-}
-
-.flat_nav a:hover{
-  color: #ff0000 !important;
-  font-weight: bold;
-}
-
-@media (max-width: 700px) {
-  .flat_nav{
-    display: none;
-  }
-}
-
-@media (min-width: 700px) {
-  .hamburger{
-    display: none;
-  }
-
-  .flat_nav ul li{
-    margin-top: -2rem;
-    margin-left: 0.3rem;
-  }
-}
-
-@media (min-width: 800px) {
-  .flat_nav ul li{
-    margin-top: 0rem;
-    margin-left: 1rem;
-  }
-}
-@media (min-width: 900px) {
-  .flat_nav ul li{
-    margin-top: 0rem;
-    margin-left: 1.5rem;
-  }
-}
-
-@media (min-width: 1000px) {
-  .flat_nav ul li{
-    margin-top: 0rem;
-    margin-left: 2.5rem;
-  }
-}
-
-@media (min-width: 1280px) {
-  .flat_nav ul li{
-    margin-top: 0rem;
-    margin-left: 5rem;
-  }
-}
-
 .s-header__trigger {
   position: relative;
   z-index: 9999;
@@ -1703,7 +1644,6 @@ div section {
   position: relative;
   z-index: 1000;
   min-height: 3.125rem;
-  border-bottom: 0.0625rem solid rgba(255, 255, 255, 0.3);
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -1961,10 +1901,10 @@ div section {
 .s-header-v2__nav-link {
   position: relative;
   display: block;
-  font-size: 0.8125rem;
+  font-size: 0.9rem;
   font-weight: 700;
   font-family: Montserrat, sans-serif;
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(30, 221, 255, 0.9);
   line-height: 5.5rem;
   text-transform: uppercase;
   margin: 0 .9rem;
@@ -1982,7 +1922,7 @@ div section {
 }
 
 .s-header-v2__nav-link.-is-active {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.9) ;
 }
 
 @media (max-width: 61.9em) {
@@ -2003,9 +1943,9 @@ div section {
 ------------------------------ */
 .s-header-v2__dropdown-menu {
   display: none;
-  font-size: 0.8125rem;
+  font-size: 0.9rem;
   min-width: 13.750rem;
-  background: #fff;
+  background: rgba(26, 27, 28, 0.5);
   border: none;
   border-radius: 0;
   box-shadow: 0 0.3125rem 0.75rem rgba(34, 35, 36, 0.05);
@@ -2028,8 +1968,9 @@ div section {
 .s-header-v2__dropdown-menu-link {
   font-size: 0.875rem;
   font-weight: 400;
+  text-transform: uppercase;
   font-family: Lato, sans-serif;
-  color: rgba(34, 35, 36, 0.7) !important;
+  color: rgba(255, 255, 255, 0.9) !important;
   padding: .4375rem 2rem .4375rem 1.375rem !important;
   transition-duration: 300ms;
   transition-property: all;
@@ -2041,7 +1982,7 @@ div section {
 }
 
 .s-header-v2__dropdown-menu-link.-is-active {
-  color: #13b1cd !important;
+  color: #fff !important;
 }
 
 /* Dropdown Menu Open On Hover

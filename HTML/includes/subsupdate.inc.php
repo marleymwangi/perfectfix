@@ -6,7 +6,7 @@ $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
     // output data of each row
-    while($row = $result->fetch_assoc()) {
+    while ($row = mysqli_fetch_assoc($result)) {
     	$confirmed = false;
         $userId = $row['userId'];
         $subs = $row['subs'];
@@ -14,6 +14,39 @@ if ($result->num_rows > 0) {
         if ($subs=="package1") {
         	$cost=50;
         }
+        echo $userId.$subs;
+		$sql = "SELECT * FROM subs where userId = '$userId';";
+		$resultSub = mysqli_query($conn,$sql);
+		$resultCheck = mysqli_num_rows($resultSub);
+
+		if ($resultCheck > 0){
+			while ($row = mysqli_fetch_assoc($resultSub)) {
+				$weekgames = $row['package1'];
+				$thirteenj = $row['package2'];
+				$fifteenj = $row['package3'];
+				$seventeenj = $row['package4'];
+			}
+		}
+		$alreadypaid=0;
+
+		switch ($subs) {
+					case 'package1';
+						if ($weekgames == 1 ) {$alreadypaid = 1;}
+						break;
+					case 'package2' && $thirteenj == 0:
+						if ($thirteenj == 1 ) {$alreadypaid = 1;}
+						break; 
+					case 'package3' && $fifteenj == 0:
+						if ($fifteenj == 1 ) {$alreadypaid = 1;}
+						break;
+					case 'package4' && $seventeenj == 0:
+						if ($seventeenj == 1 ) {$alreadypaid = 1;}
+						break;
+					default:
+						break;
+				}
+
+
 
         $sql = "SELECT * FROM users WHERE userId = '$userId' ;";
 		$result2 = mysqli_query($conn,$sql);
@@ -22,12 +55,14 @@ if ($result->num_rows > 0) {
 			$amount = $row2['amount'];
 
 			//check if account has enough funds
-			if ($amount >= $cost) {
+			if ($amount >= $cost && $alreadypaid==0 ) {
 				$confirmed = true;
 				//deduct 100 from account
 				$amount = ($amount - $cost);
 
 				$sql = "UPDATE users SET amount = '$amount' WHERE userId = '$userId' ;";
+				mysqli_query($conn,$sql);
+				$sql = "INSERT INTO userTransHist(userId, debit, amount ) values('$userId', 0, '$cost');";
 				mysqli_query($conn,$sql);
 
 
@@ -59,7 +94,7 @@ if ($result->num_rows > 0) {
 						if ($resultCheck3 = 1) {
 							$sql="UPDATE subs SET $subs = 1 WHERE userId = '$userId' ;";
 							mysqli_query($conn, $sql);
-							$sql = "DELETE FROM pendingsubs WHERE userId= '$userId' ;";
+							$sql = "DELETE FROM pendingsubs WHERE userId= '$userId' AND subs = '$subs' ;";
 							mysqli_query($conn, $sql);
 						}
 					}

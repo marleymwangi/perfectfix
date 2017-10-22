@@ -47,6 +47,7 @@ if (isset($_POST['submit'])) {
 					$_SESSION['passwrd'] = $row['passwrd'];
 					$_SESSION['email'] = $row['email'];
 					$_SESSION['phone'] = $row['phone'];
+					$_SESSION['amount'] = $row['amount'];
 
 					$cookieName = "userData";
 					$expiry = time()+60*60*24*2;
