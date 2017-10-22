@@ -171,40 +171,67 @@
                         </div>
                         <ul class="list-unstyled top_profiles scroll-view">
                           <li class="media event">
-                            <a class="pull-left border-aero profile_thumb">
-                              <i class="fa fa-user <?php if($weekgames==1){ echo 'green';} else { echo 'blue'; } ?>"></i>
-                            </a>
-                            <div class="media-body">
-                              <a class="title" href="#"><h2>Package 1</h2></a>
-                              <h4><?php if($weekgames==1){ echo 'Valid Subscription';} else { echo 'Not Subscribed'; } ?></h4>
-                              </p>
+                            <div class="col-xs-9">
+                              <a class="pull-left border-<?php if($weekgames==1){ echo 'green';} else { echo 'blue'; } ?> profile_thumb">
+                                <i class="fa fa-futbol-o <?php if($weekgames==1){ echo 'green';} else { echo 'blue'; } ?>"></i>
+                              </a>
+                              <div class="media-body">
+                                <a class="title" href="#"><h2 class="<?php if($weekgames==1){ echo 'green';} else { echo 'blue'; } ?>">Package 1</h2></a>
+                                <h4 class="<?php if($weekgames==1){ echo 'green';} else { echo 'red'; } ?>"><?php if($weekgames==1){ echo 'Valid Subscription';} else { echo 'Not Subscribed'; } ?></h4>
+                              </div>
+                            </div>
+                            <div class="col-xs-3">
+                              <form style="padding-top: 2.5rem; <?php if($weekgames==1){ echo 'display: none;';}?>">
+                              <button type="button" class="btn btn-round btn-success" onclick="window.location.href='services.php'">BUY</button>
+                              </form>
                             </div>
                           </li>
                           <li class="media event">
-                            <a class="pull-left border-green profile_thumb">
-                              <i class="fa fa-user <?php if($thirteenj==1){ echo 'green';} else { echo 'blue'; } ?>"></i>
-                            </a>
-                            <div class="media-body">
-                              <a class="title" href="#"><h2>Package 2</h2></a>
-                              <h4><?php if($thirteenj==1){ echo 'Valid Subscription';} else { echo 'Not Subscribed'; } ?></h4>
+                            <div class="col-xs-9">
+                              <a class="pull-left border-<?php if($thirteenj==1){ echo 'green';} else { echo 'blue'; } ?> profile_thumb">
+                                <i class="fa fa-futbol-o <?php if($thirteenj==1){ echo 'green';} else { echo 'blue'; } ?>"></i>
+                              </a>
+                              <div class="media-body">
+                                <a class="title" href="#"><h2 class="<?php if($thirteenj==1){ echo 'green';} else { echo 'blue'; } ?>">Package 1</h2></a>
+                                <h4 class="<?php if($thirteenj==1){ echo 'green';} else { echo 'red'; } ?>"><?php if($thirteenj==1){ echo 'Valid Subscription';} else { echo 'Not Subscribed'; } ?></h4>
+                              </div>
+                            </div>
+                            <div class="col-xs-3">
+                              <form style="padding-top: 2.5rem; <?php if($thirteenj==1){ echo 'display: none;';}?>">
+                              <button type="button" class="btn btn-round btn-success" onclick="window.location.href='services.php'">BUY</button>
+                              </form>
                             </div>
                           </li>
                           <li class="media event">
-                            <a class="pull-left border-blue profile_thumb">
-                              <i class="fa fa-user <?php if($fifteenj==1){ echo 'green';} else { echo 'blue'; } ?>"></i>
-                            </a>
-                            <div class="media-body">
-                              <a class="title" href="#"><h2>Package 3</h2></a>
-                              <h4><?php if($fifteenj==1){ echo 'Valid Subscription';} else { echo 'Not Subscribed'; } ?></h4>
+                            <div class="col-xs-9">
+                              <a class="pull-left border-<?php if($fifteenj==1){ echo 'green';} else { echo 'blue'; } ?> profile_thumb">
+                                <i class="fa fa-futbol-o <?php if($fifteenj==1){ echo 'green';} else { echo 'blue'; } ?>"></i>
+                              </a>
+                              <div class="media-body">
+                                <a class="title" href="#"><h2 class="<?php if($fifteenj==1){ echo 'green';} else { echo 'blue'; } ?>">Package 1</h2></a>
+                                <h4 class="<?php if($fifteenj==1){ echo 'green';} else { echo 'red'; } ?>"><?php if($fifteenj==1){ echo 'Valid Subscription';} else { echo 'Not Subscribed'; } ?></h4>
+                              </div>
+                            </div>
+                            <div class="col-xs-3">
+                              <form style="padding-top: 2.5rem; <?php if($fifteenj==1){ echo 'display: none;';}?>">
+                              <button type="button" class="btn btn-round btn-success" onclick="window.location.href='services.php'">BUY</button>
+                              </form>
                             </div>
                           </li>
                           <li class="media event">
-                            <a class="pull-left border-aero profile_thumb">
-                              <i class="fa fa-user <?php if($seventeenj==1){ echo 'green';} else { echo 'blue'; } ?>"></i>
-                            </a>
-                            <div class="media-body">
-                              <a class="title" href="#"><h2>Package 4</h2></a>
-                              <h4><?php if($seventeenj==1){ echo 'Valid Subscription';} else { echo 'Not Subscribed'; } ?></h4>
+                            <div class="col-xs-9">
+                              <a class="pull-left border-<?php if($seventeenj==1){ echo 'green';} else { echo 'blue'; } ?> profile_thumb">
+                                <i class="fa fa-futbol-o <?php if($seventeenj==1){ echo 'green';} else { echo 'blue'; } ?>"></i>
+                              </a>
+                              <div class="media-body">
+                                <a class="title" href="#"><h2 class="<?php if($seventeenj==1){ echo 'green';} else { echo 'blue'; } ?>">Package 1</h2></a>
+                                <h4 class="<?php if($seventeenj==1){ echo 'green';} else { echo 'red'; } ?>"><?php if($weekgames==1){ echo 'Valid Subscription';} else { echo 'Not Subscribed'; } ?></h4>
+                              </div>
+                            </div>
+                            <div class="col-xs-3">
+                              <form style="padding-top: 2.5rem; <?php if($seventeenj==1){ echo 'display: none;';}?>">
+                              <button type="button" class="btn btn-round btn-success" onclick="window.location.href='services.php'">BUY</button>
+                              </form>
                             </div>
                           </li>
                         </ul>
