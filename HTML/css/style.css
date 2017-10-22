@@ -1907,7 +1907,7 @@ div section {
   color: rgba(30, 221, 255, 0.9);
   line-height: 5.5rem;
   text-transform: uppercase;
-  margin: 0 .9rem;
+  margin: 0.9rem;
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);

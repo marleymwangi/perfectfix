@@ -15,7 +15,7 @@
                         <div class="s-header-v2__navbar-col s-header-v2__navbar-col-width--180">
                             <!-- Logo -->
                             <div class="s-header-v2__logo g-pull-left--xs">
-                                <a href="index.html" class="s-header-v2__logo-link">
+                                <a href="index.php" class="s-header-v2__logo-link">
                                     <img class="s-header-v2__logo-img s-header-v2__logo-img--default" src="img/logo.png" alt="Perfect Fix">
                                     <img class="s-header-v2__logo-img s-header-v2__logo-img--shrink" src="img/logo-dark.png" alt="Perfect Fix">
                                 </a>
