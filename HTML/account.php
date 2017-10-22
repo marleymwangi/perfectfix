@@ -53,7 +53,7 @@
                 <h3>General</h3>
                 <ul class="nav side-menu">
                   <li><a href="index.php"><i class="fa fa-home"></i> Home</span></a></li>
-                  <li><a href="services.php"><i class="fa fa-gift"></i> Packages</span></a></li>
+                  <li><a href="services.php"><i class="fa fa-gift"></i>Get Tips</span></a></li>
                   <li><a href="weekgames.php"><i class="fa fa-balance-scale"></i> Predictions</span></a></li>
                   <li><a href="includes/logout.inc.php"><i class="fa fa-sign-out"></i> logout</span></a></li>
                 </ul>
