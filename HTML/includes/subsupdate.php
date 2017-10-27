@@ -62,6 +62,8 @@ if ($result->num_rows > 0) {
 							mysqli_query($conn, $sql);
 							$sql="INSERT INTO processedSubs (userId, subs) VALUES ('$userId','$subs');";
 							mysqli_query($conn, $sql);
+							$sql="INSERT INTO userTransHist (userId, debit, amount) VALUES ('$userId', 0, $cost);";
+							mysqli_query($conn, $sql);
 							$sql = "DELETE FROM pendingsubs WHERE userId= '$userId' ;";
 							mysqli_query($conn, $sql);
 						}
