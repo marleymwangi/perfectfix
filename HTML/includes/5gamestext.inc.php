@@ -10,7 +10,7 @@ $apikey     = "b547c9eb9946cc96be114b96b9cc9b301bab1ac9726c79eaf2cf8beaca288ef2"
 
 // Specify the numbers that you want to send to in a comma-separated list
 // Please ensure you include the country code (+254 for Kenya in this case)
-$recipients = $phoneList;
+$recipients = "+254720010700";
 
 // And of course we want our recipients to know what we really do
 $message    = "Good morning
