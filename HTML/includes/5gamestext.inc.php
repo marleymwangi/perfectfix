@@ -6,7 +6,7 @@ include 'getgames.php';
 
 // Specify your authentication credentials
 $username   = "Perfectfix";
-$apikey     = "b547c9eb9946cc96be114b96b9cc9b301bab1ac9726c79eaf2cf8beaca288ef2";
+$apikey     = "76ba6147fb0583a9f36af6b4b5ac56d763f538777db93aa85ace9c8db0229368";
 
 // Specify the numbers that you want to send to in a comma-separated list
 // Please ensure you include the country code (+254 for Kenya in this case)
@@ -14,14 +14,23 @@ $recipients = "+254720010700";
 
 // And of course we want our recipients to know what we really do
 $message    = "Good morning
+
 Today's predictions are as follows.
+
 a. $home[0] $homepred[0]% X $drawpred[0]% $away[0] $awaypred[0]%
+
 b. $home[1] $homepred[1]% X $drawpred[1]% $away[1] $awaypred[1]%
+
 c. $home[2] $homepred[2]% X $drawpred[2]% $away[2] $awaypred[2]%
+
 d. $home[3] $homepred[3]% X $drawpred[3]% $away[3] $awaypred[3]%
+
 e. $home[4] $homepred[4]% X $drawpred[4]% $away[4] $awaypred[4]%
+
 All the best. Thank you and have a nice day.
-#PerfectFix";
+#PerfectFix
+
+";
 
 // Create a new instance of our awesome gateway class
 $gateway    = new AfricasTalkingGateway($username, $apikey);
