@@ -14,7 +14,7 @@ if ($result->num_rows > 0) {
         if ($subs=="package1") {
         	$cost=50;
         }
-        echo $userId.$subs;
+
 		$sql = "SELECT * FROM subs where userId = '$userId';";
 		$resultSub = mysqli_query($conn,$sql);
 		$resultCheck = mysqli_num_rows($resultSub);
@@ -33,13 +33,13 @@ if ($result->num_rows > 0) {
 					case 'package1';
 						if ($weekgames == 1 ) {$alreadypaid = 1;}
 						break;
-					case 'package2' && $thirteenj == 0:
+					case 'package2';
 						if ($thirteenj == 1 ) {$alreadypaid = 1;}
 						break; 
-					case 'package3' && $fifteenj == 0:
+					case 'package3';
 						if ($fifteenj == 1 ) {$alreadypaid = 1;}
 						break;
-					case 'package4' && $seventeenj == 0:
+					case 'package4';
 						if ($seventeenj == 1 ) {$alreadypaid = 1;}
 						break;
 					default:
@@ -95,6 +95,12 @@ if ($result->num_rows > 0) {
 							$sql="UPDATE subs SET $subs = 1 WHERE userId = '$userId' ;";
 							mysqli_query($conn, $sql);
 							$sql = "DELETE FROM pendingsubs WHERE userId= '$userId' AND subs = '$subs' ;";
+							mysqli_query($conn, $sql);
+							$sql = "DELETE FROM pendingsubs WHERE userId= '$userId' AND subs = '$subs' ;";
+							mysqli_query($conn, $sql);
+							$sql="INSERT INTO processedSubs (userId, subs) VALUES ('$userId','$subs');";
+							mysqli_query($conn, $sql);
+							$sql="INSERT INTO userTransHist (userId, debit, amount) VALUES ('$userId', 0, $cost);";
 							mysqli_query($conn, $sql);
 						}
 					}
