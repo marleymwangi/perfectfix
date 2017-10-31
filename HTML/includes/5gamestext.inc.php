@@ -8,7 +8,7 @@ include 'getgames.php';
 if ($send == true) {
 
 // Specify your authentication credentials
-$username   = "Perfectfix";
+$username   = "sandbox";
 $apikey     = "76ba6147fb0583a9f36af6b4b5ac56d763f538777db93aa85ace9c8db0229368";
 
 // Specify the numbers that you want to send to in a comma-separated list
@@ -36,7 +36,7 @@ All the best. Thank you and have a nice day.
 ";
 
 // Create a new instance of our awesome gateway class
-$gateway    = new AfricasTalkingGateway($username, $apikey);
+$gateway    = new AfricasTalkingGateway($username, $apikey, "sandbox");
 
 /*************************************************************************************
   NOTE: If connecting to the sandbox:
