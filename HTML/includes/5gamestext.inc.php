@@ -4,6 +4,8 @@ require_once('AfricasTalkingGateway.php');
 include '5gamesnum.inc.php';
 include 'getgames.php';
 
+if ($send == true) {
+
 // Specify your authentication credentials
 $username   = "Perfectfix";
 $apikey     = "76ba6147fb0583a9f36af6b4b5ac56d763f538777db93aa85ace9c8db0229368";
@@ -67,3 +69,6 @@ catch ( AfricasTalkingGatewayException $e )
   echo "Encountered an error while sending: ".$e->getMessage();
 }
 // DONE!!! 
+}else{
+  echo"nothing to send";
+}
