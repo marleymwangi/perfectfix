@@ -1,6 +1,7 @@
 <?php
 // Be sure to include the file you've just downloaded
 require_once('AfricasTalkingGateway.php');
+$send = false;
 include '5gamesnum.inc.php';
 include 'getgames.php';
 
@@ -12,7 +13,7 @@ $apikey     = "76ba6147fb0583a9f36af6b4b5ac56d763f538777db93aa85ace9c8db0229368"
 
 // Specify the numbers that you want to send to in a comma-separated list
 // Please ensure you include the country code (+254 for Kenya in this case)
-$recipients = "+254720010700";
+$recipients = $phoneList;
 
 // And of course we want our recipients to know what we really do
 $message    = "Good morning

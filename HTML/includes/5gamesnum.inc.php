@@ -4,7 +4,6 @@ include_once 'dbh.inc.php';
 $sql = "SELECT * FROM subs where package1 = 1;";
 $result = mysqli_query($conn,$sql);
 $resultCheck = mysqli_num_rows($result);
-$send = false;
 
 if ($resultCheck > 0){
 	while ($row = mysqli_fetch_assoc($result)) {
