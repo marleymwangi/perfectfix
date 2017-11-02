@@ -11,7 +11,8 @@
             <span class=" fa fa-angle-down"></span>
           </a>
           <ul class="dropdown-menu dropdown-usermenu pull-right">
-            <li><a href="index.php"> Home</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="account.php"> My Account</a></li>
             <li><a href="services.php">Packages</a></li>
           </ul>
         </li>

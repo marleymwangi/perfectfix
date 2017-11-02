@@ -88,90 +88,10 @@
 
         <!-- Features -->
         <div id="js__scroll-to-section" class="container g-padding-y-80--xs g-padding-y-125--sm">
-            <div class="g-text-center--xs g-margin-b-100--xs">
+            <div class="g-text-center--xs g-margin-b-10--xs">
                 <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">information</p>
-                <h2 class="g-font-size-32--xs g-font-size-36--md">We help you Improve your Chances<br> That will guide you to Success.</h2>
+                <h2 class="g-font-size-32--xs g-font-size-36--md">We help you Improve your Chances<br> That will guide you to WIN.</h2>
             </div>
-            <div class="row g-margin-b-60--xs g-margin-b-70--md">
-                <div class="col-sm-4 g-margin-b-60--xs g-margin-b-0--md">
-                    <div class="clearfix">
-                        <div class="g-media g-width-30--xs">
-                            <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".1s">
-                                <i class="g-font-size-28--xs g-color--primary ti-stats-up"></i>
-                            </div>
-                        </div>
-                        <div class="g-media__body g-padding-x-20--xs">
-                            <h3 class="g-font-size-18--xs"> WE GIVE YOU SUPERIOR DATA!</h3>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 g-margin-b-60--xs g-margin-b-0--md">
-                    <div class="clearfix">
-                        <div class="g-media g-width-30--xs">
-                            <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".2s">
-                                <i class="g-font-size-28--xs g-color--primary ti-key"></i>
-                            </div>
-                        </div>
-                        <div class="g-media__body g-padding-x-20--xs">
-                            <h3 class="g-font-size-18--xs">WE FILL THE GAPS IN YOUR ARSENAL!</h3>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="clearfix">
-                        <div class="g-media g-width-30--xs">
-                            <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".3s">
-                                <i class="g-font-size-28--xs g-color--primary ti-user"></i>
-                            </div>
-                        </div>
-                        <div class="g-media__body g-padding-x-20--xs">
-                            <h3 class="g-font-size-18--xs">NO SENSE IN YOU DOING IT ALONE!</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- // end row  -->
-            <div class="row">
-                <div class="col-sm-4 g-margin-b-60--xs g-margin-b-0--md">
-                    <div class="clearfix">
-                        <div class="g-media g-width-30--xs">
-                            <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".4s">
-                                <i class="g-font-size-28--xs g-color--primary ti-infinite"></i>
-                            </div>
-                        </div>
-                        <div class="g-media__body g-padding-x-20--xs">
-                            <h3 class="g-font-size-18--xs">WE DO ALL THE HARD WORK FOR YOU!</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 g-margin-b-60--xs g-margin-b-0--md">
-                    <div class="clearfix">
-                        <div class="g-media g-width-30--xs">
-                            <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".5s">
-                                <i class="g-font-size-28--xs g-color--primary ti-star"></i>
-                            </div>
-                        </div>
-                        <div class="g-media__body g-padding-x-20--xs">
-                            <h3 class="g-font-size-18--xs">A WINNER - YOUR BRAIN + OUR COMPUTER OUTPUT!</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="clearfix">
-                        <div class="g-media g-width-30--xs">
-                            <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".6s">
-                                <i class="g-font-size-28--xs g-color--primary ti-credit-card"></i>
-                            </div>
-                        </div>
-                        <div class="g-media__body g-padding-x-20--xs">
-                            <h3 class="g-font-size-18--xs">OUR SERVICES ARE SO AFFORDABLE!</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- // end row  -->
         </div>
         <!-- End Features -->
 
