@@ -27,6 +27,7 @@ if ($result->num_rows > 0) {
 				$seventeenj = $row['package4'];
 			}
 		}
+		
 		$alreadypaid=0;
 
 		switch ($subs) {
