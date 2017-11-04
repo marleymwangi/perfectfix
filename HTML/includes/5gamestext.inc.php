@@ -36,7 +36,7 @@ All the best. Thank you and have a nice day.
 ";
 
 // Create a new instance of our awesome gateway class
-$gateway    = new AfricasTalkingGateway($username, $apikey, "sandbox");
+$gateway    = new AfricasTalkingGateway($username, $apikey);
 
 /*************************************************************************************
   NOTE: If connecting to the sandbox:

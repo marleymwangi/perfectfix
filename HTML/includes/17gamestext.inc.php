@@ -2,8 +2,8 @@
 // Be sure to include the file you've just downloaded
 require_once('AfricasTalkingGateway.php');
 $send = false;
-include '15gamesnum.inc.php';
-include 'get15games.php';
+include '17gamesnum.inc.php';
+include 'get17games.php';
 
 if ($send == true) {
 
@@ -60,7 +60,7 @@ All the best. Thank you and have a nice day.
 ";
 
 // Create a new instance of our awesome gateway class
-$gateway    = new AfricasTalkingGateway($username, $apikey, "sandbox");
+$gateway    = new AfricasTalkingGateway($username, $apikey);
 
 /*************************************************************************************
   NOTE: If connecting to the sandbox:
