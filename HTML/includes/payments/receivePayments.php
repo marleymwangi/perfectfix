@@ -1,4 +1,5 @@
 <?php
+
 $data  = json_decode(file_get_contents('php://input'), true);
 print_r($data);
 // Process the data...
@@ -8,10 +9,6 @@ if ( $category == "MobileC2B" ) {
    $phoneNumber = $data["source"];
    $value       = $data["value"];
    $account     = $data["clientAccount"];
-
-   echo $phoneNumber.$value.$account;
    // manipulate the data as required by your business logic
    // Perhaps send an SMS to confirm the payment using our APIs...
-} else { .... some more logic ...}
-
-?>
+} else {echo "payment not procesed";}

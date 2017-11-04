@@ -1,6 +1,6 @@
 <?php
 // Be sure to include the file you've just downloaded
-require_once('AfricasTalkingGateway.php');
+require_once('../AfricasTalkingGateway.php');
 $send = false;
 include '5gamesnum.inc.php';
 include '../getgames.php';

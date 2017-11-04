@@ -1,5 +1,5 @@
 <?php
-require_once "AfricasTalkingGateway.php";
+require_once "../AfricasTalkingGateway.php";
 //Specify your credentials
 $username = "sandbox";
 $apiKey   = "6be15639531128d359fe2679eae9da7f0a5c7844472e7aa04ba33d35035b25ad";
