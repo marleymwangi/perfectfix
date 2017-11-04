@@ -3,7 +3,7 @@
 require_once('AfricasTalkingGateway.php');
 $send = false;
 include '15gamesnum.inc.php';
-include 'get15games.php';
+include '../get15games.php';
 
 if ($send == true) {
 
