@@ -9,7 +9,7 @@ if ($send == true) {
 
 // Specify your authentication credentials
 $username   = "sandbox";
-$apikey     = "76ba6147fb0583a9f36af6b4b5ac56d763f538777db93aa85ace9c8db0229368";
+$apikey     = "03a98576896b1108b160d70431838ff90b917661dd73372d26ab4c507922a16e";
 
 // Specify the numbers that you want to send to in a comma-separated list
 // Please ensure you include the country code (+254 for Kenya in this case)
