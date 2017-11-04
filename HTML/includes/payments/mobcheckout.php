@@ -23,8 +23,8 @@ $currencyCode = "KES";
 $amount       = 100.50;
 // Any metadata that you would like to send along with this request
 // This metadata will be  included when we send back the final payment notification
-$metadata     = array("agentId"   => "654",
-                      "productId" => "002");
+$metadata     = array("userId"   => "1",
+                      "productId" => "2");
 try {
   // Initiate the checkout. If successful, you will get back a transactionId
   $transactionId = $gateway->initiateMobilePaymentCheckout($productName,
