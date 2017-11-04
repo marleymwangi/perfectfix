@@ -1,6 +1,6 @@
 <?php
 
-$data  = json_decode(file_get_contents('php://input'), true);
+$data  = json_decode(file_get_contents('php://input');
 print_r($data);
 // Process the data...
 $category = $data["category"];
@@ -13,4 +13,4 @@ if ( $category == "MobileC2B" ) {
 
    // manipulate the data as required by your business logic
    // Perhaps send an SMS to confirm the payment using our APIs...
-} else {echo "payment not procesed";}
+} else {echo "data is".$data;}
