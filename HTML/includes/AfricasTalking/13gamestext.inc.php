@@ -2,8 +2,8 @@
 // Be sure to include the file you've just downloaded
 require_once('AfricasTalkingGateway.php');
 $send = false;
-include '5gamesnum.inc.php';
-include '../getgames.php';
+include '13gamesnum.inc.php';
+include 'get13games.php';
 
 if ($send == true) {
 
@@ -18,7 +18,7 @@ $recipients = $phoneList;
 // And of course we want our recipients to know what we really do
 $message    = "Good morning
 
-Today's predictions are as follows.
+Package 2: 13 games predictions are as follows.
 
 a. $home[0] $homepred[0]% X $drawpred[0]% $away[0] $awaypred[0]%
 
@@ -29,6 +29,22 @@ c. $home[2] $homepred[2]% X $drawpred[2]% $away[2] $awaypred[2]%
 d. $home[3] $homepred[3]% X $drawpred[3]% $away[3] $awaypred[3]%
 
 e. $home[4] $homepred[4]% X $drawpred[4]% $away[4] $awaypred[4]%
+
+f. $home[5] $homepred[5]% X $drawpred[5]% $away[5] $awaypred[5]%
+
+g. $home[6] $homepred[6]% X $drawpred[6]% $away[6] $awaypred[6]%
+
+h. $home[7] $homepred[7]% X $drawpred[7]% $away[7] $awaypred[7]%
+
+i. $home[8] $homepred[8]% X $drawpred[8]% $away[8] $awaypred[8]%
+
+j. $home[9] $homepred[9]% X $drawpred[9]% $away[9] $awaypred[9]%
+
+k. $home[10] $homepred[10]% X $drawpred[10]% $away[10] $awaypred[10]%
+
+l. $home[11] $homepred[11]% X $drawpred[11]% $away[11] $awaypred[11]%
+
+m. $home[12] $homepred[12]% X $drawpred[12]% $away[12] $awaypred[12]%
 
 All the best. Thank you and have a nice day.
 #PerfectFix

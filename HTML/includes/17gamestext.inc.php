@@ -3,12 +3,12 @@
 require_once('AfricasTalkingGateway.php');
 $send = false;
 include '17gamesnum.inc.php';
-include 'get17games.php';
+include '../get17games.php';
 
 if ($send == true) {
 
 // Specify your authentication credentials
-$username   = "sandbox";
+$username   = "PerfectFix";
 $apikey     = "03a98576896b1108b160d70431838ff90b917661dd73372d26ab4c507922a16e";
 
 // Specify the numbers that you want to send to in a comma-separated list

@@ -1,5 +1,5 @@
 <?php
-include_once 'dbh.inc.php';
+include_once '../dbh.inc.php';
 
 $sql = "SELECT * FROM subs where package1 = 1;";
 $result = mysqli_query($conn,$sql);
