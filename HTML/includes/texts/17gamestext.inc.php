@@ -18,7 +18,7 @@ $recipients = $phoneList;
 // And of course we want our recipients to know what we really do
 $message    = "Good morning
 
-Package 3: 15 games predictions are as follows.
+Package 4: 17 games predictions are as follows.
 
 a. $home[0] $homepred[0]% X $drawpred[0]% $away[0] $awaypred[0]%
 
