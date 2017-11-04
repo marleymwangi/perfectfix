@@ -1,5 +1,6 @@
 <?php
 $data  = json_decode(file_get_contents('php://input'), true);
+echo $data;
 print_r($data);
 // Process the data...
 $category = $data["category"];
