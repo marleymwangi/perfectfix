@@ -1,4 +1,4 @@
-Author: 		KeenThemes
+Author: 		P4erfectfix
 Website: 		http://www.perfectfix.co/
 Contact: 		support@perfectfix.co
 Follow: 		http://twitter.com/_Perfectfix_
